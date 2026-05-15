@@ -1,24 +1,26 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Services',
-  description: 'Our premium SEO services to scale your business.',
+  title: 'Game Providers',
+  description: 'World-Class Game Providers at BIGWIN959.',
 };
 
 export default function ServicesPage() {
   const services = [
-    { title: 'Technical SEO Audits', description: 'Deep-dive analysis of your website architecture, performance, and indexability.', icon: '🔍' },
-    { title: 'Content Strategy', description: 'Data-driven content planning designed to capture high-intent organic traffic.', icon: '📝' },
-    { title: 'Link Building', description: 'Acquiring high-authority backlinks to establish domain trust and dominance.', icon: '🔗' },
-    { title: 'Local SEO', description: 'Optimizing your digital footprint to dominate local search results and maps.', icon: '📍' },
+    { title: 'Evolution Gaming', description: 'World\'s leading live casino provider with innovative game shows and professional dealers.', icon: '🎰' },
+    { title: 'Pragmatic Play', description: 'Leading content provider known for Drops & Wins, high-volatility slots and engaging live dealers.', icon: '💎' },
+    { title: 'JILI Games', description: 'Famous for engaging fishing and slot games, perfectly optimized for mobile play in Asia.', icon: '🎣' },
+    { title: 'SBO Sports', description: 'Premium sports betting provider with extensive markets, Asian handicaps, and live streaming.', icon: '⚽' },
+    { title: 'Spribe (Aviator)', description: 'Pioneer of next-generation turbo games and crash mechanics. High-speed social betting.', icon: '🚀' },
+    { title: 'PG Soft', description: 'Premium mobile-first slot developer with cinematic graphics and innovative gameplay mechanics.', icon: '📱' },
   ];
 
   return (
     <div className="container animate-fade-in" style={{ paddingTop: 'var(--spacing-xl)' }}>
       <div style={{ textAlign: 'center', marginBottom: 'var(--spacing-lg)' }}>
-        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Our <span className="gradient-text">Services</span></h1>
+        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>World-Class <span className="gradient-text">Providers</span></h1>
         <p style={{ color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto' }}>
-          Comprehensive solutions designed to accelerate your organic growth.
+          BIGWIN959 connects you to the world's most trusted gaming studios. We curate a premium experience powered by industry giants ensuring fair play and massive jackpots.
         </p>
       </div>
 

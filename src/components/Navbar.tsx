@@ -15,12 +15,12 @@ export default function Navbar() {
       zIndex: 50
     }}>
       <div style={{ fontSize: '1.5rem', fontWeight: 700, letterSpacing: '-0.05em' }}>
-        <Link href="/" className="gradient-text">BIGWINSEO</Link>
+        <Link href="/" className="gradient-text">BIGWIN959</Link>
       </div>
       
       <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
-        <Link href="/services" style={{ fontWeight: 500, fontSize: '0.95rem' }}>Services</Link>
-        <Link href="/blog" style={{ fontWeight: 500, fontSize: '0.95rem' }}>Blog</Link>
+        <Link href="/services" style={{ fontWeight: 500, fontSize: '0.95rem' }}>Providers</Link>
+        <Link href="/blog" style={{ fontWeight: 500, fontSize: '0.95rem' }}>Guides</Link>
         <Link href="/about" style={{ fontWeight: 500, fontSize: '0.95rem' }}>About Us</Link>
         <Link href="/download" className="btn btn-primary" style={{ padding: '0.5rem 1.25rem' }}>
           Download App
