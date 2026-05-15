@@ -7,12 +7,12 @@ export const metadata: Metadata = {
 
 export default function ServicesPage() {
   const services = [
-    { title: 'Evolution Gaming', description: 'World\'s leading live casino provider with innovative game shows and professional dealers.', icon: '🎰' },
-    { title: 'Pragmatic Play', description: 'Leading content provider known for Drops & Wins, high-volatility slots and engaging live dealers.', icon: '💎' },
-    { title: 'JILI Games', description: 'Famous for engaging fishing and slot games, perfectly optimized for mobile play in Asia.', icon: '🎣' },
-    { title: 'SBO Sports', description: 'Premium sports betting provider with extensive markets, Asian handicaps, and live streaming.', icon: '⚽' },
-    { title: 'Spribe (Aviator)', description: 'Pioneer of next-generation turbo games and crash mechanics. High-speed social betting.', icon: '🚀' },
-    { title: 'PG Soft', description: 'Premium mobile-first slot developer with cinematic graphics and innovative gameplay mechanics.', icon: '📱' },
+    { title: 'Evolution Gaming', description: 'World\'s leading live casino provider with innovative game shows and professional dealers.', icon: '/providers/evolution.png' },
+    { title: 'Pragmatic Play', description: 'Leading content provider known for Drops & Wins, high-volatility slots and engaging live dealers.', icon: '/providers/pragmatic.png' },
+    { title: 'JILI Games', description: 'Famous for engaging fishing and slot games, perfectly optimized for mobile play in Asia.', icon: '/providers/jili.png' },
+    { title: 'SBO Sports', description: 'Premium sports betting provider with extensive markets, Asian handicaps, and live streaming.', icon: '/providers/sbo.png' },
+    { title: 'Spribe (Aviator)', description: 'Pioneer of next-generation turbo games and crash mechanics. High-speed social betting.', icon: '/providers/spribe.png' },
+    { title: 'PG Soft', description: 'Premium mobile-first slot developer with cinematic graphics and innovative gameplay mechanics.', icon: '/providers/pgsoft.png' },
   ];
 
   return (
@@ -27,7 +27,9 @@ export default function ServicesPage() {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
         {services.map((service, index) => (
           <div key={index} className={`glass-card delay-${(index % 3 + 1) * 100}`}>
-            <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>{service.icon}</div>
+            <div style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', background: 'rgba(255,255,255,0.05)', borderRadius: '12px', padding: '10px' }}>
+              <img src={service.icon} alt={`${service.title} Logo`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+            </div>
             <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>{service.title}</h3>
             <p style={{ color: 'var(--text-secondary)' }}>{service.description}</p>
           </div>
