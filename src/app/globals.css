@@ -16,6 +16,7 @@
   
   --accent-purple: #8b5cf6;
   --accent-cyan: #06b6d4;
+  --accent-blue: #3b82f6;
   --accent-neon: #0ea5e9;
 
   /* Techy Cyber Gradients */
@@ -45,6 +46,18 @@
   --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   
   --glass-bg: rgba(10, 10, 12, 0.7);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 * {
@@ -284,6 +297,11 @@ a {
   100% { background-position: 0% 50%; }
 }
 
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.15); }
+}
+
 .animate-fade-in {
   animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   opacity: 0;
@@ -307,6 +325,119 @@ a {
   }
   .bento-large { grid-column: span 2; }
   .bento-tall { grid-row: span 2; }
+}
+
+/* Page shell — consistent vertical rhythm */
+.page-shell {
+  padding-top: var(--spacing-lg);
+  padding-bottom: var(--spacing-xl);
+}
+
+@media (min-width: 768px) {
+  .page-shell {
+    padding-top: var(--spacing-xl);
+  }
+}
+
+.home-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.link-accent {
+  color: var(--accent-cyan);
+  font-weight: 600;
+  transition: color var(--transition-fast);
+}
+
+.link-accent:hover,
+.link-accent:focus-visible {
+  color: var(--accent-neon);
+  outline: none;
+}
+
+.footer a:hover,
+.footer a:focus-visible {
+  color: var(--text-primary);
+  outline: none;
+}
+
+.footer-brand {
+  grid-column: span 2;
+}
+
+@media (max-width: 640px) {
+  .footer-brand {
+    grid-column: span 1;
+  }
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ef4444;
+  animation: pulse 2s infinite;
+  flex-shrink: 0;
+}
+
+.guides-match-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .guides-match-grid {
+    grid-template-columns: minmax(280px, 1fr) minmax(0, 2fr);
+  }
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .category-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+.services-markets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: var(--spacing-lg);
+}
+
+.services-markets a {
+  scroll-margin-top: 6rem;
+}
+
+.metric-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.metric-cell {
+  flex: 1 1 220px;
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (min-width: 768px) {
+  .metric-cell {
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .metric-cell:last-child {
+    border-right: none;
+  }
 }
 
 /* Markdown Prose */
@@ -336,4 +467,63 @@ a {
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   font-style: italic;
   margin: 2rem 0;
+}
+
+/* Long-form SEO page layout: TOC + main */
+.home-body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  padding: 2rem 0 var(--spacing-xl);
+}
+
+@media (min-width: 1024px) {
+  .home-body {
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 3.5rem;
+  }
+}
+
+.home-toc {
+  position: relative;
+  padding: 1.25rem;
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.02);
+  height: fit-content;
+}
+
+@media (min-width: 1024px) {
+  .home-toc {
+    position: sticky;
+    top: 6rem;
+  }
+}
+
+.home-toc a {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  display: block;
+  padding: 0.35rem 0;
+  border-left: 2px solid transparent;
+  padding-left: 0.6rem;
+  margin-left: -0.6rem;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.home-toc a:hover {
+  color: var(--text-primary);
+  border-left-color: var(--accent-cyan);
+}
+
+.home-main h2 { scroll-margin-top: 5rem; }
+.home-main h3 { color: var(--text-primary); }
+
+.link-accent {
+  color: var(--accent-cyan);
+  font-weight: 500;
+}
+
+.link-accent:hover {
+  text-decoration: underline;
 }

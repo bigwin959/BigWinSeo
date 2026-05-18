@@ -1,0 +1,303 @@
+{
+  "affiliatePage": {
+    "seo": {
+      "title": "Affiliate Program – Earn Unlimited Commissions | BIGWIN959 Partnership",
+      "description": "Join BIGWIN959's affiliate program and earn generous commissions. First-time invitation bonuses, accumulative rewards, deposit percentages, turnover commissions, and multi-level rewards."
+    },
+    "hero": {
+      "badge": "Earn Unlimited Passive Income",
+      "title": "BIGWIN959 Affiliate Program",
+      "subtitle": "Join our lucrative affiliate program and earn generous commissions by referring players to BIGWIN959. Benefit from first-time invitation bonuses, accumulative rewards, downline deposit percentages, and turnover commissions with our multi-level system.",
+      "cta": {
+        "join": "Join Affiliate Program",
+        "learnMore": "Learn More"
+      },
+      "stats": {
+        "invitation": {
+          "label": "Invitation Bonus",
+          "value": "Instant Rewards"
+        },
+        "accumulative": {
+          "label": "Accumulative Bonus",
+          "value": "Growing Income"
+        },
+        "deposit": {
+          "label": "Deposit Commission",
+          "value": "% of Deposits"
+        },
+        "turnover": {
+          "label": "Turnover Commission",
+          "value": "Ongoing Earnings"
+        }
+      }
+    },
+    "whatIs": {
+      "title": "What is an Affiliate Program?",
+      "content": [
+        "An affiliate program is a performance-based marketing arrangement where you earn commissions by promoting BIGWIN959 to potential players. As an affiliate partner, you receive a unique referral link or code that tracks all players you refer to our platform. When these players register and play on BIGWIN959, you earn commissions based on their activity.",
+        "Think of it as a partnership where both parties benefit. BIGWIN959 gains new players through your marketing efforts, and you earn substantial commissions from the players you refer. The beauty of affiliate marketing is that it creates passive income - once you've referred players, you continue earning commissions from their ongoing activity without additional effort.",
+        "Unlike traditional jobs where you trade time for money, affiliate marketing allows you to build a sustainable income stream that grows over time. The more players you refer and the more active they are, the higher your earnings. With BIGWIN959's generous commission structure and multi-level system, successful affiliates can earn substantial monthly income that far exceeds typical employment salaries.",
+        "Our affiliate program is designed to be accessible to everyone - whether you're a professional marketer with a large audience, a content creator with a gaming channel, or simply someone with a network of friends interested in online gaming. No special skills or experience required. We provide all the tools, tracking systems, and support you need to succeed as a BIGWIN959 affiliate partner."
+      ]
+    },
+    "commission": {
+      "title": "Comprehensive Commission Structure",
+      "subtitle": "Multiple income streams designed to maximize your earning potential",
+      "invitation": {
+        "title": "First-Time Invitation Bonus",
+        "desc": [
+          "Earn instant rewards for every new player you successfully refer to BIGWIN959. The first-time invitation bonus is paid immediately when your referred player completes registration and makes their first deposit. This one-time bonus provides instant gratification and quick returns on your marketing efforts.",
+          "The bonus amount varies based on the player's first deposit size and activity level. Higher deposits and more active players result in larger bonuses for you. This incentivizes you to focus on quality referrals - players who are genuinely interested in gaming and likely to become long-term active users.",
+          "First-time bonuses are credited to your affiliate account within 24-48 hours of the player's qualifying deposit. You can track all your referrals, their registration status, deposit amounts, and corresponding bonuses in real-time through your affiliate dashboard. This transparency ensures you always know exactly how much you're earning."
+        ],
+        "example": {
+          "title": "Example Bonus Structure:",
+          "items": [
+            "First Deposit $50-$100: $10 Bonus",
+            "First Deposit $100-$500: $25 Bonus",
+            "First Deposit $500+: $50+ Bonus"
+          ]
+        }
+      },
+      "accumulative": {
+        "title": "Accumulative Bonus",
+        "desc": [
+          "The accumulative bonus rewards your consistent performance and growing network. As you refer more players and your total referral count increases, you unlock higher bonus tiers with increasingly generous rewards. This system ensures that your income grows exponentially as your affiliate business expands.",
+          "Accumulative bonuses are calculated based on milestones - for example, referring 10 players, 50 players, 100 players, and so on. Each milestone unlocks a substantial bonus payment that reflects your achievement. These bonuses can range from hundreds to thousands of dollars depending on the tier you reach.",
+          "What makes accumulative bonuses particularly attractive is that they're paid on top of all your other commissions. You continue earning first-time bonuses, deposit commissions, and turnover commissions while also receiving these milestone rewards. This multi-layered income structure is what allows successful affiliates to build substantial monthly earnings."
+        ],
+        "example": {
+          "title": "Milestone Bonuses:",
+          "items": [
+            "10 Active Referrals: $100 Bonus",
+            "50 Active Referrals: $500 Bonus",
+            "100 Active Referrals: $1,500 Bonus"
+          ]
+        }
+      },
+      "deposit": {
+        "title": "Downline Deposit Commission",
+        "desc": [
+          "Earn a percentage of every deposit made by your referred players (your downline). This commission structure provides ongoing passive income as long as your referrals continue depositing and playing on BIGWIN959. The more active your referrals are, the more you earn - creating a truly passive income stream.",
+          "Deposit commissions typically range from 0.5% to 3% of each deposit amount, depending on your affiliate level and the player's activity tier. For example, if your referral deposits $1,000 and you're earning 2% commission, you receive $20. If you have 50 active referrals each depositing $500 monthly, that's $500 in deposit commissions alone per month.",
+          "The beauty of deposit commissions is their recurring nature. Unlike one-time bonuses, deposit commissions continue as long as players remain active. A single high-value player who deposits regularly can generate substantial monthly income for years. This is why building a quality referral base is so valuable - it creates long-term financial security."
+        ],
+        "example": {
+          "title": "Commission Rates by Level:",
+          "items": [
+            "Bronze Level (0-10 referrals): 1.0% per deposit",
+            "Silver Level (11-50 referrals): 1.5% per deposit",
+            "Gold Level (51+ referrals): 2.0% per deposit"
+          ]
+        }
+      },
+      "turnover": {
+        "title": "Turnover Commission",
+        "desc": [
+          "Turnover commission is based on the total betting volume (turnover) generated by your referred players. This is often the most lucrative commission type for affiliates with active referrals. Turnover refers to the total amount wagered by players, not just deposits - meaning you earn commissions on all their betting activity.",
+          "Turnover commissions typically range from 0.1% to 0.5% of total turnover, which might seem small but adds up quickly. Consider this: if your referrals generate $100,000 in monthly turnover (which is achievable with 20-30 active players), a 0.3% commission rate yields $300 per month from turnover alone. Scale this to 100+ referrals and the numbers become substantial.",
+          "Turnover commissions are calculated monthly and paid out at the beginning of each month for the previous month's activity. This provides predictable, recurring income that you can count on. The commission rate increases as you move up affiliate levels, rewarding your growth and success with higher earning potential."
+        ],
+        "example": {
+          "title": "Monthly Turnover Example:",
+          "text": "50 Active Players × $2,000 avg turnover = $100,000",
+          "rate": "Commission Rate: 0.3%",
+          "result": "Monthly Earnings: $300 from turnover alone"
+        }
+      }
+    },
+    "multiLevel": {
+      "title": "Multi-Level Affiliate System",
+      "subtitle": "Unlock higher commission rates and exclusive benefits as you grow your network",
+      "tiers": {
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "platinum": "Platinum"
+      },
+      "requirements": {
+        "bronze": "0-10 Active Referrals",
+        "silver": "11-50 Active Referrals",
+        "gold": "51-100 Active Referrals",
+        "platinum": "100+ Active Referrals"
+      },
+      "benefits": {
+        "title": "Level Progression Benefits",
+        "desc": "As you progress through affiliate levels, you unlock increasingly generous commission rates and exclusive benefits. Higher levels mean higher earnings from the same referral base. A Platinum affiliate earns 2.5x more than a Bronze affiliate on deposit commissions and 5x more on turnover commissions.",
+        "items": [
+          "Automatic level upgrades based on active referrals",
+          "Retroactive commission increases on existing referrals",
+          "Exclusive promotional materials for higher levels"
+        ],
+        "tierBenefits": {
+          "bronze": [
+            "1.0% Deposit Commission",
+            "0.1% Turnover Commission",
+            "Basic Support",
+            "Standard Bonuses"
+          ],
+          "silver": [
+            "1.5% Deposit Commission",
+            "0.2% Turnover Commission",
+            "Priority Support",
+            "Enhanced Bonuses"
+          ],
+          "gold": [
+            "2.0% Deposit Commission",
+            "0.3% Turnover Commission",
+            "VIP Support",
+            "Premium Bonuses"
+          ],
+          "platinum": [
+            "2.5% Deposit Commission",
+            "0.5% Turnover Commission",
+            "Dedicated Manager",
+            "Exclusive Bonuses"
+          ]
+        }
+      }
+    },
+    "opportunities": {
+      "title": "Various Promotional Opportunities",
+      "subtitle": "Boost your earnings with special promotions and seasonal campaigns",
+      "items": [
+        {
+          "title": "Seasonal Bonuses",
+          "desc": "Special bonus campaigns during holidays, major sporting events, and festivals. Earn extra commissions during peak seasons like IPL, World Cup, Christmas, and New Year."
+        },
+        {
+          "title": "Performance Contests",
+          "desc": "Monthly and quarterly contests for top-performing affiliates. Win cash prizes, luxury gifts, and exclusive rewards based on referral count, turnover, or deposits."
+        },
+        {
+          "title": "Launch Promotions",
+          "desc": "Enhanced commission rates when new games, providers, or features launch. Be the first to promote new offerings and earn boosted commissions."
+        },
+        {
+          "title": "Referral Challenges",
+          "desc": "Time-limited challenges with bonus rewards. Refer X players in Y days to unlock special bonuses and prizes. Perfect for motivated affiliates."
+        },
+        {
+          "title": "Flash Campaigns",
+          "desc": "Surprise flash promotions with 24-48 hour windows. Double commissions, instant bonuses, or special rewards for quick action."
+        },
+        {
+          "title": "VIP Exclusive Offers",
+          "desc": "Platinum-level affiliates get access to exclusive promotional opportunities not available to lower tiers. Premium campaigns with premium rewards."
+        }
+      ]
+    },
+    "getStarted": {
+      "title": "How to Get Started",
+      "subtitle": "Join our affiliate program in just a few simple steps",
+      "steps": [
+        {
+          "title": "Register",
+          "desc": "Sign up for BIGWIN959 affiliate program through our platform"
+        },
+        {
+          "title": "Get Links",
+          "desc": "Receive your unique referral links and tracking codes"
+        },
+        {
+          "title": "Promote",
+          "desc": "Share your links through social media, websites, or networks"
+        },
+        {
+          "title": "Track",
+          "desc": "Monitor referrals, deposits, and earnings in real-time dashboard"
+        },
+        {
+          "title": "Earn",
+          "desc": "Receive commissions automatically - withdraw anytime"
+        }
+      ],
+      "included": {
+        "title": "What You Get as an Affiliate",
+        "items": [
+          "Unique referral links with advanced tracking",
+          "Real-time dashboard with detailed analytics",
+          "Marketing materials (banners, landing pages, content)",
+          "Dedicated affiliate support team",
+          "Regular commission payouts (weekly/monthly)",
+          "No hidden fees or charges",
+          "Transparent reporting and tracking",
+          "Training resources and best practices"
+        ]
+      }
+    },
+    "earningPotential": {
+      "title": "Unlimited Earning Potential",
+      "desc": [
+        "The BIGWIN959 affiliate program offers truly unlimited earning potential. Unlike traditional jobs with fixed salaries or hourly wages, your affiliate income is only limited by your effort and marketing reach. Top affiliates earn five to six figures monthly by building large, active referral networks.",
+        "The key to success is consistency and quality. Focus on referring players who are genuinely interested in gaming and likely to remain active long-term. A smaller network of highly active players often generates more income than a large network of inactive referrals. Quality over quantity is the mantra of successful affiliates.",
+        "With multiple income streams (first-time bonuses, accumulative bonuses, deposit commissions, and turnover commissions), your earnings compound as your network grows. A referral made today continues generating income for months or years to come, creating true passive income that grows exponentially over time."
+      ],
+      "examples": {
+        "title": "Realistic Monthly Earnings Examples:",
+        "items": [
+          {
+            "label": "10 active players",
+            "value": "$500-$1,000/month"
+          },
+          {
+            "label": "50 active players",
+            "value": "$2,500-$5,000/month"
+          },
+          {
+            "label": "100 active players",
+            "value": "$5,000-$10,000/month"
+          },
+          {
+            "label": "200+ active players",
+            "value": "$10,000-$25,000+/month"
+          }
+        ]
+      }
+    },
+    "whoCanJoin": {
+      "title": "Who Can Join?",
+      "subtitle": "Our affiliate program is open to everyone - no experience required",
+      "items": [
+        {
+          "title": "Content Creators",
+          "desc": "YouTubers, streamers, bloggers, and social media influencers with gaming audiences. Monetize your content by promoting BIGWIN959."
+        },
+        {
+          "title": "Website Owners",
+          "desc": "Gaming websites, review sites, comparison portals, and niche blogs. Add affiliate links to generate passive income from your traffic."
+        },
+        {
+          "title": "Social Networks",
+          "desc": "Anyone with a social media following, WhatsApp groups, Telegram channels, or Facebook communities interested in gaming."
+        },
+        {
+          "title": "Marketing Professionals",
+          "desc": "Digital marketers, SEO experts, PPC specialists, and email marketers looking for high-converting offers to promote."
+        },
+        {
+          "title": "Gaming Enthusiasts",
+          "desc": "Regular players who want to earn extra income by referring friends, family, and fellow gaming enthusiasts to BIGWIN959."
+        },
+        {
+          "title": "Anyone with a Network",
+          "desc": "If you know people interested in online gaming, you can become an affiliate. No special skills or experience required."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start Earning?",
+      "subtitle": "Join thousands of successful affiliates earning substantial monthly income with BIGWIN959. Start your affiliate journey today and unlock unlimited earning potential.",
+      "buttons": {
+        "join": "Join Affiliate Program",
+        "contact": "Contact Affiliate Team"
+      },
+      "features": [
+        "No Joining Fees",
+        "Unlimited Earnings",
+        "Weekly Payouts",
+        "Full Support"
+      ]
+    }
+  }
+}

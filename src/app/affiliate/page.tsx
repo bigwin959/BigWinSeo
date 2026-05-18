@@ -1,188 +1,255 @@
-import { Metadata } from 'next';
 import Link from 'next/link';
+import type { Metadata } from 'next';
+import { OFFICIAL_SITE_URL, SITE_URL } from '@/constants/site';
+import data from '@/content/affiliate.json';
+
+const ap = data.affiliatePage;
+const seo = ap.seo;
 
 export const metadata: Metadata = {
-  title: 'Elite Partners Club',
-  description: 'Join the most exclusive, high-yield affiliate program in Asia.',
+  title: seo.title,
+  description: seo.description,
+  alternates: { canonical: '/affiliate' },
+  openGraph: { type: 'website', url: '/affiliate', title: seo.title, description: seo.description },
+  twitter: { title: seo.title, description: seo.description },
 };
 
+const TOC = [
+  { id: 'what-is', label: 'What is an affiliate program' },
+  { id: 'commission', label: 'Commission structure' },
+  { id: 'multi-level', label: 'Multi-level system' },
+  { id: 'opportunities', label: 'Promotional opportunities' },
+  { id: 'get-started', label: 'How to get started' },
+  { id: 'earning', label: 'Earning potential' },
+  { id: 'who-can-join', label: 'Who can join' },
+];
+
+const sectionStyle: React.CSSProperties = { padding: '3.5rem 0', scrollMarginTop: '5rem' };
+const cardStyle: React.CSSProperties = { padding: '1.5rem' };
+
+const TIERS = ['bronze', 'silver', 'gold', 'platinum'] as const;
+
 export default function AffiliatePage() {
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Affiliate', item: `${SITE_URL}/affiliate` },
+    ],
+  };
+
   return (
-    <div className="animate-fade-in" style={{ backgroundColor: '#050505' }}>
-      
-      {/* Exclusive Hero Section */}
-      <section className="section" style={{ paddingTop: '10rem', paddingBottom: '6rem', position: 'relative', overflow: 'hidden' }}>
-        {/* Subtle Gold/Purple Glow Background */}
-        <div style={{ position: 'absolute', top: '-20%', left: '50%', transform: 'translateX(-50%)', width: '80vw', height: '80vw', background: 'radial-gradient(circle, rgba(212,175,55,0.1) 0%, rgba(124,58,237,0.05) 40%, transparent 70%)', filter: 'blur(60px)', zIndex: 0, borderRadius: '50%' }}></div>
-        
-        <div className="container" style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
-          <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', border: '1px solid rgba(212,175,55,0.3)', padding: '0.5rem 1.25rem', borderRadius: '50px', marginBottom: '2rem', background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(10px)' }}>
-            <span style={{ color: '#d4af37', fontSize: '1.2rem' }}>✦</span>
-            <span style={{ color: '#d4af37', textTransform: 'uppercase', letterSpacing: '0.15em', fontSize: '0.75rem', fontWeight: 700 }}>By Invitation Only</span>
-          </div>
-          
-          <h1 style={{ fontSize: 'clamp(3rem, 7vw, 5.5rem)', marginBottom: '1.5rem', lineHeight: '1.1', fontWeight: 300, fontFamily: 'Outfit, sans-serif' }}>
-            The Elite <br />
-            <span style={{ fontWeight: 800, background: 'linear-gradient(135deg, #fceda1 0%, #d4af37 50%, #b5952f 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Partners Club</span>
-          </h1>
-          
-          <p style={{ color: '#a1a1aa', fontSize: '1.25rem', maxWidth: '750px', margin: '0 auto 3rem', fontWeight: 300, lineHeight: 1.8 }}>
-            Engineered for top-tier affiliates, high-net-worth introducers, and master agents. Gain access to unprecedented liquidity, bespoke commission structures, and a private concierge.
-          </p>
-          
-          <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center' }}>
-            <Link href="#apply" className="btn" style={{ background: 'linear-gradient(135deg, #d4af37 0%, #b5952f 100%)', color: '#000', padding: '1rem 3rem', fontSize: '1.1rem', boxShadow: '0 10px 30px rgba(212,175,55,0.2)' }}>
-              Request Access
-            </Link>
-            <Link href="#contact" className="btn btn-secondary" style={{ padding: '1rem 3rem', fontSize: '1.1rem', borderColor: 'rgba(255,255,255,0.1)' }}>
-              Contact VIP Host
-            </Link>
-          </div>
-        </div>
-      </section>
+    <div className="home-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
 
-      {/* High-Net-Worth Metrics */}
-      <section style={{ borderTop: '1px solid rgba(255,255,255,0.05)', borderBottom: '1px solid rgba(255,255,255,0.05)', background: '#0a0a0a' }}>
-        <div className="container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', padding: '3rem 0' }}>
-          <div style={{ flex: '1 1 250px', textAlign: 'center', padding: '2rem', borderRight: '1px solid rgba(255,255,255,0.05)' }}>
-            <h4 style={{ fontSize: '3rem', color: '#fff', fontWeight: 300, marginBottom: '0.5rem', fontFamily: 'Outfit, sans-serif' }}>$42M<span style={{ color: '#d4af37' }}>+</span></h4>
-            <p style={{ color: '#71717a', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.8rem' }}>Paid to Partners in 2025</p>
-          </div>
-          <div style={{ flex: '1 1 250px', textAlign: 'center', padding: '2rem', borderRight: '1px solid rgba(255,255,255,0.05)' }}>
-            <h4 style={{ fontSize: '3rem', color: '#fff', fontWeight: 300, marginBottom: '0.5rem', fontFamily: 'Outfit, sans-serif' }}>55<span style={{ color: '#d4af37' }}>%</span></h4>
-            <p style={{ color: '#71717a', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.8rem' }}>Max Rev-Share Tier</p>
-          </div>
-          <div style={{ flex: '1 1 250px', textAlign: 'center', padding: '2rem' }}>
-            <h4 style={{ fontSize: '3rem', color: '#fff', fontWeight: 300, marginBottom: '0.5rem', fontFamily: 'Outfit, sans-serif' }}>Zero</h4>
-            <p style={{ color: '#71717a', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.8rem' }}>Negative Carryover</p>
-          </div>
-        </div>
-      </section>
+      <div className="mesh-bg" aria-hidden>
+        <div className="mesh-blob blob-1" />
+        <div className="mesh-blob blob-2" />
+        <div className="mesh-blob blob-3" />
+      </div>
 
-      {/* Luxury Features & Graphic Designer Spaces */}
-      <section className="section" style={{ padding: '8rem 0' }}>
+      {/* HERO */}
+      <section style={{ position: 'relative', zIndex: 1, padding: '5rem 0 3rem', textAlign: 'center' }}>
         <div className="container">
-          
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '5rem', alignItems: 'center' }}>
-            
-            {/* Graphic Designer Placeholder 1: Luxury Lifestyle / Black Card */}
-            <div style={{ 
-              aspectRatio: '4/5', 
-              display: 'flex', 
-              flexDirection: 'column', 
-              alignItems: 'center', 
-              justifyContent: 'center',
-              background: 'linear-gradient(to bottom, #111, #0a0a0a)',
-              border: '1px solid rgba(212,175,55,0.2)',
-              borderRadius: '2px',
-              position: 'relative',
-              boxShadow: '0 30px 60px rgba(0,0,0,0.8), inset 0 0 100px rgba(212,175,55,0.03)'
-            }}>
-              {/* Corner Accents */}
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '30px', height: '30px', borderTop: '1px solid #d4af37', borderLeft: '1px solid #d4af37' }}></div>
-              <div style={{ position: 'absolute', bottom: 0, right: 0, width: '30px', height: '30px', borderBottom: '1px solid #d4af37', borderRight: '1px solid #d4af37' }}></div>
-              
-              <div style={{ color: '#d4af37', marginBottom: '1.5rem', opacity: 0.5 }}>
-                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                </svg>
-              </div>
-              <h3 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: '#fff', fontWeight: 300, letterSpacing: '0.05em' }}>Designer Canvas</h3>
-              <p style={{ fontSize: '0.9rem', color: '#71717a', textAlign: 'center', maxWidth: '70%', lineHeight: 1.6 }}>
-                Insert high-end luxury lifestyle imagery here. E.g., Private jets, exclusive "Black Card" aesthetics, or a sleek metallic dashboard mockup. (Recommended: 1000x1250)
-              </p>
-            </div>
+          <span className="news-tag tag-casino" style={{ marginBottom: '1.25rem', display: 'inline-block' }}>{ap.hero.badge}</span>
+          <h1 className="title-glow" style={{ fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', lineHeight: 1.1, marginBottom: '1rem' }}>
+            <span className="gradient-text">{ap.hero.title}</span>
+          </h1>
+          <p style={{ fontSize: '1.15rem', color: 'var(--text-secondary)', maxWidth: '780px', margin: '0 auto 2rem' }}>{ap.hero.subtitle}</p>
 
-            <div>
-              <h2 style={{ fontSize: '3rem', marginBottom: '2rem', fontWeight: 300, lineHeight: 1.2 }}>Uncompromising <br /><span style={{ color: '#d4af37', fontWeight: 600 }}>Commission Models</span></h2>
-              <p style={{ color: '#a1a1aa', fontSize: '1.15rem', marginBottom: '2.5rem', lineHeight: 1.8 }}>
-                We don't do generic tiers. High-volume partners receive custom-tailored hybrid deals (CPA + RevShare) designed to maximize your specific traffic's lifetime value.
-              </p>
-              
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-                <div style={{ display: 'flex', gap: '1.5rem' }}>
-                  <div style={{ width: '50px', height: '50px', borderRadius: '50%', background: 'rgba(212,175,55,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#d4af37', flexShrink: 0, border: '1px solid rgba(212,175,55,0.2)' }}>
-                    01
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '1.3rem', marginBottom: '0.5rem', fontWeight: 500 }}>Infinite Revenue Share</h4>
-                    <p style={{ color: '#71717a', lineHeight: 1.6 }}>Earn up to 55% net revenue with absolutely no negative carryover. Your slate is wiped clean every month.</p>
-                  </div>
-                </div>
-                
-                <div style={{ display: 'flex', gap: '1.5rem' }}>
-                  <div style={{ width: '50px', height: '50px', borderRadius: '50%', background: 'rgba(212,175,55,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#d4af37', flexShrink: 0, border: '1px solid rgba(212,175,55,0.2)' }}>
-                    02
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '1.3rem', marginBottom: '0.5rem', fontWeight: 500 }}>Private Liquidity Payouts</h4>
-                    <p style={{ color: '#71717a', lineHeight: 1.6 }}>Withdraw your commissions daily or weekly. We support high-limit crypto transfers (USDT, BTC) and secure local wires.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-          
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '5rem', alignItems: 'center', marginTop: '10rem' }}>
-            
-            <div style={{ order: 2 }}>
-              <h2 style={{ fontSize: '3rem', marginBottom: '2rem', fontWeight: 300, lineHeight: 1.2 }}>Your Private <br /><span style={{ color: '#d4af37', fontWeight: 600 }}>Wealth Concierge</span></h2>
-              <p style={{ color: '#a1a1aa', fontSize: '1.15rem', marginBottom: '2.5rem', lineHeight: 1.8 }}>
-                Skip the support queues. Elite partners are assigned a dedicated VIP manager, available 24/7 on private channels to authorize special player bonuses and optimize campaigns instantly.
-              </p>
-              
-              <Link href="#contact" style={{ display: 'inline-flex', alignItems: 'center', gap: '1rem', color: '#d4af37', fontWeight: 600, fontSize: '1.1rem', textTransform: 'uppercase', letterSpacing: '0.05em', borderBottom: '1px solid #d4af37', paddingBottom: '0.25rem' }}>
-                Schedule a Consultation <span style={{ fontSize: '1.5rem' }}>&rarr;</span>
-              </Link>
-            </div>
-
-            {/* Graphic Designer Placeholder 2: VIP Concierge / High-End App */}
-            <div style={{ 
-              order: 1,
-              aspectRatio: '4/5', 
-              display: 'flex', 
-              flexDirection: 'column', 
-              alignItems: 'center', 
-              justifyContent: 'center',
-              background: 'linear-gradient(to top, #111, #0a0a0a)',
-              border: '1px solid rgba(212,175,55,0.2)',
-              borderRadius: '2px',
-              position: 'relative',
-              boxShadow: '0 30px 60px rgba(0,0,0,0.8), inset 0 0 100px rgba(212,175,55,0.03)'
-            }}>
-               {/* Corner Accents */}
-               <div style={{ position: 'absolute', top: 0, right: 0, width: '30px', height: '30px', borderTop: '1px solid #d4af37', borderRight: '1px solid #d4af37' }}></div>
-              <div style={{ position: 'absolute', bottom: 0, left: 0, width: '30px', height: '30px', borderBottom: '1px solid #d4af37', borderLeft: '1px solid #d4af37' }}></div>
-              
-              <div style={{ color: '#d4af37', marginBottom: '1.5rem', opacity: 0.5 }}>
-                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                </svg>
-              </div>
-              <h3 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: '#fff', fontWeight: 300, letterSpacing: '0.05em' }}>Designer Canvas</h3>
-              <p style={{ fontSize: '0.9rem', color: '#71717a', textAlign: 'center', maxWidth: '70%', lineHeight: 1.6 }}>
-                Insert premium concierge imagery here. E.g., A luxury watch alongside an exclusive mobile app dashboard, or high-end bespoke marketing assets. (Recommended: 1000x1250)
-              </p>
-            </div>
-            
+          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '3rem' }}>
+            <a href={OFFICIAL_SITE_URL} className="btn btn-primary" rel="noopener noreferrer" target="_blank">{ap.hero.cta.join}</a>
+            <a href="#what-is" className="btn btn-secondary">{ap.hero.cta.learnMore}</a>
           </div>
 
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '1rem', textAlign: 'left', maxWidth: '900px', margin: '0 auto' }}>
+            {Object.values(ap.hero.stats).map((s) => (
+              <div key={s.label} className="glass-card" style={{ padding: '1.25rem' }}>
+                <div style={{ color: 'var(--accent-cyan)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.4rem' }}>{s.label}</div>
+                <div style={{ color: 'var(--text-primary)', fontSize: '1.05rem', fontWeight: 600 }}>{s.value}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
-      
-      {/* Footer CTA */}
-      <section style={{ padding: '8rem 0', background: 'radial-gradient(circle at center, #1a1a1a 0%, #050505 100%)', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
-        <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ fontSize: '3rem', marginBottom: '1.5rem', fontWeight: 300 }}>Ready to <span style={{ color: '#d4af37', fontWeight: 600 }}>Scale?</span></h2>
-          <p style={{ color: '#a1a1aa', maxWidth: '600px', margin: '0 auto 3rem', fontSize: '1.2rem' }}>
-            Submit your portfolio. Our partner acquisition team reviews all applications within 12 hours.
-          </p>
-          <button className="btn" style={{ background: '#fff', color: '#000', padding: '1.2rem 4rem', fontSize: '1.1rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-            Apply Now
-          </button>
+
+      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+        <div className="home-body">
+          <aside className="home-toc" aria-label="On this page">
+            <h2 style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--text-muted)', marginBottom: '1rem' }}>On this page</h2>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+              {TOC.map((t) => (
+                <li key={t.id}><a href={`#${t.id}`}>{t.label}</a></li>
+              ))}
+            </ul>
+          </aside>
+
+          <main className="home-main">
+            {/* WHAT IS */}
+            <section id="what-is" style={sectionStyle}>
+              <h2 style={{ fontSize: 'clamp(1.75rem, 3.5vw, 2.4rem)', marginBottom: '1.5rem' }}>{ap.whatIs.title}</h2>
+              {ap.whatIs.content.map((para, i) => (
+                <p key={i} style={{ color: 'var(--text-secondary)', marginBottom: '1.25rem', fontSize: '1.05rem' }}>{para}</p>
+              ))}
+            </section>
+
+            {/* COMMISSION STRUCTURE */}
+            <section id="commission" style={sectionStyle}>
+              <h2 style={{ fontSize: 'clamp(1.75rem, 3.5vw, 2.4rem)', marginBottom: '0.5rem' }}>{ap.commission.title}</h2>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '1.05rem' }}>{ap.commission.subtitle}</p>
+
+              {(['invitation', 'accumulative', 'deposit', 'turnover'] as const).map((key) => {
+                const c = ap.commission[key] as {
+                  title: string;
+                  desc: string[];
+                  example?: { title?: string; items?: string[]; text?: string; rate?: string; result?: string };
+                };
+                return (
+                  <div key={key} className="glass-card" style={{ ...cardStyle, marginBottom: '1.25rem' }}>
+                    <h3 style={{ fontSize: '1.25rem', marginBottom: '0.75rem' }}>{c.title}</h3>
+                    {c.desc.map((p, i) => (
+                      <p key={i} style={{ color: 'var(--text-secondary)', marginBottom: '0.75rem' }}>{p}</p>
+                    ))}
+                    {c.example && (
+                      <div style={{ borderTop: '1px solid var(--border-medium)', paddingTop: '1rem', marginTop: '0.5rem' }}>
+                        {c.example.title && <strong style={{ color: 'var(--text-primary)' }}>{c.example.title}</strong>}
+                        {c.example.items && (
+                          <ul style={{ paddingLeft: '1.25rem', marginTop: '0.5rem', color: 'var(--text-secondary)', display: 'grid', gap: '0.3rem' }}>
+                            {c.example.items.map((it) => <li key={it}>{it}</li>)}
+                          </ul>
+                        )}
+                        {c.example.text && <p style={{ marginTop: '0.5rem', color: 'var(--text-secondary)' }}>{c.example.text}</p>}
+                        {c.example.rate && <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginTop: '0.25rem' }}>{c.example.rate}</p>}
+                        {c.example.result && <p style={{ color: 'var(--accent-cyan)', fontWeight: 600, marginTop: '0.25rem' }}>{c.example.result}</p>}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </section>
+
+            {/* MULTI-LEVEL */}
+            <section id="multi-level" style={sectionStyle}>
+              <h2 style={{ fontSize: 'clamp(1.75rem, 3.5vw, 2.4rem)', marginBottom: '0.5rem' }}>{ap.multiLevel.title}</h2>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '1.05rem' }}>{ap.multiLevel.subtitle}</p>
+
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
+                {TIERS.map((tier) => (
+                  <div key={tier} className="glass-card" style={{ padding: '1.5rem' }}>
+                    <div style={{ textTransform: 'uppercase', letterSpacing: '0.08em', fontSize: '0.8rem', color: 'var(--accent-cyan)', marginBottom: '0.4rem' }}>
+                      {ap.multiLevel.tiers[tier]}
+                    </div>
+                    <div style={{ fontSize: '1rem', color: 'var(--text-primary)', marginBottom: '1rem', fontWeight: 600 }}>
+                      {ap.multiLevel.requirements[tier]}
+                    </div>
+                    <ul style={{ listStyle: 'none', padding: 0, display: 'grid', gap: '0.4rem', color: 'var(--text-secondary)', fontSize: '0.95rem' }}>
+                      {ap.multiLevel.benefits.tierBenefits[tier].map((b) => <li key={b}>• {b}</li>)}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+
+              <div className="glass-card" style={cardStyle}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.75rem' }}>{ap.multiLevel.benefits.title}</h3>
+                <p style={{ color: 'var(--text-secondary)', marginBottom: '1rem' }}>{ap.multiLevel.benefits.desc}</p>
+                <ul style={{ paddingLeft: '1.25rem', color: 'var(--text-secondary)', display: 'grid', gap: '0.3rem' }}>
+                  {ap.multiLevel.benefits.items.map((it) => <li key={it}>{it}</li>)}
+                </ul>
+              </div>
+            </section>
+
+            {/* OPPORTUNITIES */}
+            <section id="opportunities" style={sectionStyle}>
+              <h2 style={{ fontSize: 'clamp(1.75rem, 3.5vw, 2.4rem)', marginBottom: '0.5rem' }}>{ap.opportunities.title}</h2>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '1.05rem' }}>{ap.opportunities.subtitle}</p>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem' }}>
+                {ap.opportunities.items.map((it) => (
+                  <div key={it.title} className="glass-card" style={{ padding: '1.25rem' }}>
+                    <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>{it.title}</h3>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>{it.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* GET STARTED */}
+            <section id="get-started" style={sectionStyle}>
+              <h2 style={{ fontSize: 'clamp(1.75rem, 3.5vw, 2.4rem)', marginBottom: '0.5rem' }}>{ap.getStarted.title}</h2>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '1.05rem' }}>{ap.getStarted.subtitle}</p>
+
+              <ol style={{ display: 'grid', gap: '0.75rem', paddingLeft: 0, listStyle: 'none', marginBottom: '2rem' }}>
+                {ap.getStarted.steps.map((s, i) => (
+                  <li key={s.title} className="glass-card" style={{ padding: '1.25rem', display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+                    <span style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.4rem', fontWeight: 700, color: 'var(--accent-cyan)', minWidth: '2.5rem' }}>0{i + 1}</span>
+                    <div>
+                      <h3 style={{ fontSize: '1.1rem', marginBottom: '0.3rem' }}>{s.title}</h3>
+                      <p style={{ color: 'var(--text-secondary)', margin: 0 }}>{s.desc}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+
+              <div className="glass-card" style={cardStyle}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '0.75rem' }}>{ap.getStarted.included.title}</h3>
+                <ul style={{ paddingLeft: '1.25rem', color: 'var(--text-secondary)', display: 'grid', gap: '0.3rem' }}>
+                  {ap.getStarted.included.items.map((it) => <li key={it}>{it}</li>)}
+                </ul>
+              </div>
+            </section>
+
+            {/* EARNING POTENTIAL */}
+            <section id="earning" style={sectionStyle}>
+              <h2 style={{ fontSize: 'clamp(1.75rem, 3.5vw, 2.4rem)', marginBottom: '1.5rem' }}>{ap.earningPotential.title}</h2>
+              {ap.earningPotential.desc.map((p, i) => (
+                <p key={i} style={{ color: 'var(--text-secondary)', marginBottom: '1.25rem', fontSize: '1.05rem' }}>{p}</p>
+              ))}
+              <div className="glass-card" style={cardStyle}>
+                <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>{ap.earningPotential.examples.title}</h3>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.75rem' }}>
+                  {ap.earningPotential.examples.items.map((e) => (
+                    <div key={e.label} style={{ padding: '1rem', borderLeft: '3px solid var(--accent-cyan)', background: 'rgba(255,255,255,0.02)' }}>
+                      <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '0.25rem' }}>{e.label}</div>
+                      <div style={{ color: 'var(--text-primary)', fontSize: '1.1rem', fontWeight: 600 }}>{e.value}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+
+            {/* WHO CAN JOIN */}
+            <section id="who-can-join" style={sectionStyle}>
+              <h2 style={{ fontSize: 'clamp(1.75rem, 3.5vw, 2.4rem)', marginBottom: '0.5rem' }}>{ap.whoCanJoin.title}</h2>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '1.05rem' }}>{ap.whoCanJoin.subtitle}</p>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem' }}>
+                {ap.whoCanJoin.items.map((it) => (
+                  <div key={it.title} className="glass-card" style={{ padding: '1.25rem' }}>
+                    <h3 style={{ fontSize: '1.05rem', marginBottom: '0.5rem' }}>{it.title}</h3>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>{it.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* FINAL CTA */}
+            <section style={sectionStyle}>
+              <div className="glass-card" style={{ padding: '3rem 2rem', textAlign: 'center', background: 'var(--gradient-primary)', border: '1px solid rgba(255,255,255,0.2)', boxShadow: 'var(--shadow-glow)' }}>
+                <h2 style={{ fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', color: '#fff', marginBottom: '0.5rem' }}>{ap.cta.title}</h2>
+                <p style={{ color: 'rgba(255,255,255,0.9)', maxWidth: '620px', margin: '0 auto 1.5rem' }}>{ap.cta.subtitle}</p>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.5rem', marginBottom: '2rem' }}>
+                  {ap.cta.features.map((f) => (
+                    <span key={f} className="news-tag" style={{ background: 'rgba(255,255,255,0.15)', color: '#fff', border: '1px solid rgba(255,255,255,0.25)' }}>{f}</span>
+                  ))}
+                </div>
+                <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                  <a href={OFFICIAL_SITE_URL} className="btn" style={{ background: '#fff', color: '#0f1115' }} rel="noopener noreferrer" target="_blank">{ap.cta.buttons.join}</a>
+                  <Link href="/login" className="btn btn-secondary" style={{ borderColor: 'rgba(255,255,255,0.5)', color: '#fff' }}>{ap.cta.buttons.contact}</Link>
+                </div>
+              </div>
+            </section>
+          </main>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

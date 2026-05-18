@@ -1,0 +1,2366 @@
+{
+  "cricketGuide": {
+    "stepByStep": {
+      "final": "<strong>Final Steps:</strong> Select odds format (Decimal recommended) → Enter stake → Confirm",
+      "title": "Step-by-Step: Place a Cricket Bet",
+      "subtitle": "(With Provider & Market Selection)",
+      "items": [
+        {
+          "title": "Login to BIGWIN959.vip",
+          "desc": "Access the official platform"
+        },
+        {
+          "title": "Open Sports â†’ Cricket",
+          "desc": "Navigate to cricket section"
+        },
+        {
+          "title": "Choose channel/provider",
+          "desc": "Example: BTI / UG / SBO / Exchange"
+        },
+        {
+          "title": "Select match",
+          "desc": "Choose Pre-match or Live"
+        },
+        {
+          "title": "Pick market type",
+          "desc": "Winner / Handicap / Totals / Player / Overs"
+        },
+        {
+          "title": "Check bet slip",
+          "desc": "Settlement condition, Super Over rules, void rules"
+        }
+      ]
+    },
+    "cards": {
+      "whatToDo": "What to do:",
+      "strengths": "Strengths:",
+      "bestFor": "Best for:",
+      "learnMore": "Learn more",
+      "readMore": "Read more",
+      "risk": "Risk:"
+    },
+    "nav": {
+      "exchange": "Exchange vs Sportsbook",
+      "howToBet": "How to Bet",
+      "settlement": "Settlement Rules",
+      "faq": "FAQ"
+    },
+    "seo": {
+      "title": "Cricket Betting Guide (BD & MM) – Markets, Platforms, and How Cricket Bets Settle (2025)",
+      "description": "Cricket betting intelligence hub on BIGWIN959. Learn how cricket odds, exchange vs sportsbook models, settlement rules, multi-provider platforms (BTI, UG, SBO, Lucky Exchange) and advanced markets really work.",
+      "headline": "Cricket Betting Guide (BD & MM) – Markets, Platforms, and How Cricket Bets Settle (2025)",
+      "keywords": [
+        "cricket betting",
+        "Bangladesh cricket",
+        "Myanmar cricket",
+        "sports betting guide",
+        "ICC cricket",
+        "DLS method",
+        "cricket markets",
+        "Asian handicap cricket",
+        "cricket exchange betting",
+        "BTI sports",
+        "SBO cricket",
+        "cricket settlement rules"
+      ]
+    },
+    "hero": {
+      "title": "Cricket Betting Guide",
+      "subtitle": "(BD & MM) – Markets, Platforms, and How Cricket Bets Settle (2025)",
+      "desc1": "Cricket betting is not \"one bet only.\" Modern sports platforms offer multiple market types, different odds feeds, and different settlement rules depending on match conditions.",
+      "desc2": "This guide is designed to feel like an official sportsbook help center, including:",
+      "items": [
+        "Complete cricket bet types (pre-match + live)",
+        "How odds & lines work (including handicap concepts)",
+        "\"Weird\" cricket situations explained (rain, DLS, no result, Super Over, retired hurt)",
+        "Multi-platform market overview (Sportsbook + Exchange style options)",
+        "Recent major cricket events & rule updates as reference points"
+      ],
+      "disclaimer": "Educational guide only. There is no guaranteed profit in sports betting."
+    },
+    "confusions": {
+      "title": "Common \"Confusing\" Cricket Situations",
+      "subtitle": "(With Clear Answers)",
+      "items": [
+        {
+          "title": "Match Abandoned / No Result — What happens to bets?",
+          "desc": "If a match is abandoned or declared No Result, many markets are voided and stakes are returned, but not all markets behave the same.",
+          "example": "Some 'innings markets' may settle if that innings is officially completed, while 'match winner' may be void.",
+          "action": "Always check each market's settlement condition inside the bet slip."
+        },
+        {
+          "title": "Rain & DLS Method — Why odds change suddenly?",
+          "desc": "In limited-overs cricket, rain can trigger the Duckworth–Lewis–Stern (DLS) method, changing targets and probability instantly.",
+          "example": "That's why you may see odds swing sharply after an interruption.",
+          "action": "In live betting, wait for play to resume and target/overs to confirm before placing."
+        },
+        {
+          "title": "Super Over — Does it count as match result?",
+          "desc": "Some competitions use Super Over to decide a winner in tied matches.",
+          "example": "Whether Super Over counts for certain markets depends on the platform's rule wording.",
+          "action": "Look for labels like 'Includes Super Over' on markets."
+        },
+        {
+          "title": "Retired hurt / substituted player — Why player bets void?",
+          "desc": "If a player does not participate as expected (did not bat/bowl), some player markets may be void or partially settled depending on rule set.",
+          "example": "",
+          "action": "Prefer player markets that explicitly define 'must start / must bat / must bowl.'"
+        }
+      ]
+    },
+    "providers": {
+      "title": "Supported Sportsbook & Market Channels",
+      "subtitle": "(Provider Overview)",
+      "items": [
+        {
+          "name": "Lucky Exchange / Lucky Sports",
+          "subtitle": "Exchange-style markets",
+          "desc": "Designed around real-time odds, fast settlement, and liquidity-driven markets, often used by operators for sports trading / exchange-like experiences.",
+          "strengths": [
+            "Real-time odds",
+            "Exchange concept",
+            "Fast settlement",
+            "Risk tools"
+          ],
+          "bestFor": "Users who like 'market movement' and flexible trading-style betting"
+        },
+        {
+          "name": "BTI Sports",
+          "subtitle": "Sportsbook solution",
+          "desc": "A sportsbook-style feed that typically emphasizes coverage across sports + live options + API-grade data (often used by operators as a sportsbook engine).",
+          "strengths": [
+            "Broad match coverage",
+            "Live odds",
+            "Strong sports UI"
+          ],
+          "bestFor": "Users who like a traditional sportsbook experience"
+        },
+        {
+          "name": "UG Sport",
+          "subtitle": "United Gaming – sports vertical",
+          "desc": "UG is commonly presented as a multi-vertical entertainment provider including sports, with pre-match and live events positioning on its official site.",
+          "strengths": [
+            "Pre-match + live",
+            "Broad bet types"
+          ],
+          "bestFor": "Users who want classic Asian-market betting menus"
+        },
+        {
+          "name": "IBC Sports",
+          "subtitle": "Agent / broker channel",
+          "desc": "IBC is often seen as a broker/agent access layer to multiple services (sportsbook/exchange style), which can create a 'multi-channel' feel.",
+          "strengths": [
+            "Multi-service access pattern"
+          ],
+          "bestFor": "Users who want more than one sportsbook channel"
+        },
+        {
+          "name": "SBO Sports",
+          "subtitle": "SBOBET-style Asian handicap focus",
+          "desc": "SBOBET is widely associated with Asian Handicap and in-play live betting.",
+          "strengths": [
+            "Asian handicap markets",
+            "Live betting focus"
+          ],
+          "bestFor": "Users who prefer handicap-based thinking"
+        }
+      ],
+      "comparison": {
+        "title": "Provider Channel Comparison",
+        "subtitle": "(What each is good at)",
+        "headers": {
+          "channel": "Channel",
+          "bestFor": "Best For",
+          "strength": "Notable Strength",
+          "userType": "Typical User Type"
+        },
+        "rows": [
+          {
+            "channel": "Lucky Exchange",
+            "bestFor": "Exchange-style betting",
+            "strength": "Real-time odds + fast settlement",
+            "userType": "Market-movement users"
+          },
+          {
+            "channel": "BTI Sports",
+            "bestFor": "Sportsbook coverage",
+            "strength": "Broad sports menus / live experience",
+            "userType": "Mainstream sportsbook users"
+          },
+          {
+            "channel": "UG Sport",
+            "bestFor": "Pre-match + live",
+            "strength": "Wide bet types positioning",
+            "userType": "Asian-market style users"
+          },
+          {
+            "channel": "IBC Sports",
+            "bestFor": "Multi-service access",
+            "strength": "Agent/broker layer model",
+            "userType": "Users who want multiple channels"
+          },
+          {
+            "channel": "SBO Sports",
+            "bestFor": "Handicap + live",
+            "strength": "Asian handicap + in-play live",
+            "userType": "Handicap bettors"
+          }
+        ]
+      }
+    },
+    "betTypes": {
+      "title": "Cricket Bet Types Explained",
+      "subtitle": "– Markets, Odds, and Settlement Logic",
+      "intro": "Cricket betting offers a wide range of market types that behave differently depending on match format, timing, and settlement rules. Unlike simple \"win or lose\" bets, cricket markets are designed to reflect the unique flow of the game, including innings structure, overs, weather impact, and live momentum changes.",
+      "intro2": "This guide explains the most common cricket bet types used across sportsbook and exchange-style platforms, with a focus on how each market works, how odds are applied, and how bets are settled.",
+      "disclaimer": "Educational content only. No betting strategy or profit guarantee is implied.",
+      "sections": [
+        {
+          "title": "1) Match Winner (Moneyline)",
+          "subtitle": "Most straightforward market",
+          "markets": [
+            {
+              "name": "Match Winner",
+              "desc": "Select which team will win the match"
+            },
+            {
+              "name": "DLS Adjusted",
+              "desc": "Winner determined by DLS method if rain-affected"
+            },
+            {
+              "name": "Super Over",
+              "desc": "Super Over winner counts as match winner"
+            },
+            {
+              "name": "No Result",
+              "desc": "Bets void if match abandoned before minimum overs"
+            }
+          ],
+          "note": "Always review market description for Super Over and DLS rules before placing bets."
+        },
+        {
+          "title": "2) Handicap Bets (Run Line)",
+          "subtitle": "Balance uneven matches",
+          "markets": [
+            {
+              "name": "Run Handicap",
+              "desc": "Team must win by X runs (e.g., -10.5 runs)"
+            },
+            {
+              "name": "Wicket Handicap",
+              "desc": "Virtual advantage/disadvantage in wickets"
+            },
+            {
+              "name": "Alternative Lines",
+              "desc": "-10.5, -20.5, +10.5 for different risk profiles"
+            },
+            {
+              "name": "DLS Adjusted",
+              "desc": "Applied to final adjusted score in rain-affected matches"
+            }
+          ],
+          "note": "Popular among experienced bettors for more competitive odds and better reflection of team strength."
+        },
+        {
+          "title": "3) Over/Under (Total Runs)",
+          "subtitle": "Wager on statistics exceeding a line",
+          "markets": [
+            {
+              "name": "Match Total Runs O/U",
+              "desc": "Combined runs by both teams (e.g., Over 312.5)"
+            },
+            {
+              "name": "Team Total Runs O/U",
+              "desc": "Single team's total runs"
+            },
+            {
+              "name": "Innings Total Runs O/U",
+              "desc": "Specific innings total"
+            },
+            {
+              "name": "Powerplay Runs O/U",
+              "desc": "First 6 overs in T20/ODI"
+            }
+          ],
+          "note": "Settlement based on final adjusted totals if DLS applied. Bet void if minimum threshold not met."
+        },
+        {
+          "title": "4) Session & Inning-Based Bets",
+          "subtitle": "Specific match segments",
+          "markets": [
+            {
+              "name": "Powerplay Runs",
+              "desc": "First 6 overs total (T20/ODI)"
+            },
+            {
+              "name": "First 10 Overs",
+              "desc": "Runs in first 10 overs"
+            },
+            {
+              "name": "First Innings Total",
+              "desc": "Team's first innings score"
+            },
+            {
+              "name": "Over-by-Over",
+              "desc": "Specific over total (e.g., 6th over)"
+            }
+          ],
+          "note": "Popular in live betting. Settled once segment completed. Void if interrupted and cannot be completed.",
+          "warning": "Less affected by overall match outcome, more by immediate performance."
+        },
+        {
+          "title": "5) Player Performance Markets",
+          "subtitle": "Individual player statistics",
+          "markets": [
+            {
+              "name": "Top Batsman / Bowler",
+              "desc": "Highest scorer or most wickets"
+            },
+            {
+              "name": "Player Runs",
+              "desc": "Over/Under 30.5, 50.5, 100.5 runs"
+            },
+            {
+              "name": "Player Wickets",
+              "desc": "2+, 3+ wickets"
+            },
+            {
+              "name": "Most Sixes / Fours",
+              "desc": "Player with most boundaries"
+            }
+          ],
+          "note": "Player must participate for bet to stand. Void if player doesn't bat/bowl."
+        },
+        {
+          "title": "6) Exchange-Style Markets",
+          "subtitle": "Back & Lay betting",
+          "markets": [
+            {
+              "name": "Back (Bet For)",
+              "desc": "Bet on outcome to happen"
+            },
+            {
+              "name": "Lay (Bet Against)",
+              "desc": "Bet on outcome NOT to happen"
+            },
+            {
+              "name": "Market-Driven Odds",
+              "desc": "Odds determined by supply and demand"
+            },
+            {
+              "name": "Liquidity Impact",
+              "desc": "Price stability depends on market activity"
+            }
+          ],
+          "note": "Greater flexibility but more complex. Best for users who understand market-driven odds.",
+          "warning": "Settlement may differ during abandoned matches. Requires understanding of exchange mechanics."
+        }
+      ],
+      "summary": {
+        "title": "Summary: Choosing the Right Cricket Bet Type",
+        "text1": "Cricket offers a diverse set of betting markets designed to reflect the complexity of the sport itself.",
+        "text2": "Match Winner bets provide simplicity, while Handicap and Over/Under markets offer more nuanced exposure.",
+        "text3": "Session and exchange-style markets allow deeper engagement but require a stronger understanding of settlement logic.",
+        "disclaimer": "Choosing the right bet type depends on match format, platform rules, and personal familiarity with cricket dynamics. Understanding how each market works is essential for avoiding confusion and ensuring informed participation."
+      }
+    },
+    "events": {
+      "title": "Major Recent Cricket Events & Rule Updates",
+      "subtitle": "(Reference Points)",
+      "items": [
+        {
+          "title": "ICC Men's T20 World Cup 2024",
+          "description": "Co-hosted West Indies & USA; final on 29 Jun 2024."
+        },
+        {
+          "title": "ICC Men's Champions Trophy 2025",
+          "description": "Held 19 Feb – 9 Mar 2025, hosted across Pakistan & UAE (Dubai as neutral venue confirmed in ICC release)."
+        },
+        {
+          "title": "ODI Playing Condition Update (June 2025)",
+          "description": "ODI innings uses two new balls for first 34 overs, then fielding side chooses one ball to continue. This impacts late-innings conditions and can affect run-rate expectations and live totals."
+        }
+      ]
+    },
+    "settlement": {
+      "title": "Cricket Settlement Rules",
+      "subtitle": "– Full Documentation",
+      "desc": "This section explains how cricket betting markets are settled across different sportsbook and exchange-style channels.",
+      "core": {
+        "title": "Core Settlement Principles",
+        "items": [
+          {
+            "title": "Official Result Rule",
+            "desc": "Bets are settled based on the official result declared by the recognized governing body or match authority."
+          },
+          {
+            "title": "Market-Specific Priority",
+            "desc": "Each market has its own settlement conditions. If a market rule conflicts with general rules, the market rule prevails."
+          },
+          {
+            "title": "Completion Requirement",
+            "desc": "Some markets require match completion, innings completion, or player participation."
+          },
+          {
+            "title": "Timing Finality",
+            "desc": "Once a market is settled, later statistical corrections do not change settlement."
+          }
+        ]
+      },
+      "status": {
+        "title": "Market Status Definitions",
+        "headers": {
+          "status": "Status",
+          "meaning": "Meaning"
+        },
+        "rows": [
+          {
+            "status": "Settled",
+            "meaning": "Result confirmed and bet finalized"
+          },
+          {
+            "status": "Void",
+            "meaning": "Bet cancelled and stake returned"
+          },
+          {
+            "status": "Half-Void",
+            "meaning": "Part of stake returned, part settled"
+          },
+          {
+            "status": "Pending",
+            "meaning": "Awaiting official confirmation"
+          },
+          {
+            "status": "Suspended",
+            "meaning": "Temporarily paused (live markets)"
+          }
+        ],
+        "note": "Understanding these statuses prevents most disputes."
+      },
+      "matchWinner": {
+        "title": "Match Winner / Match Result",
+        "headers": {
+          "scenario": "Scenario",
+          "settlement": "Settlement"
+        },
+        "rows": [
+          {
+            "scenario": "Match completed normally",
+            "settlement": "Bets settled on winner"
+          },
+          {
+            "scenario": "Tie (no Super Over)",
+            "settlement": "Tie rules apply"
+          },
+          {
+            "scenario": "Super Over played",
+            "settlement": "Settlement depends on 'Includes Super Over'"
+          },
+          {
+            "scenario": "Match abandoned",
+            "settlement": "Market void unless stated otherwise"
+          },
+          {
+            "scenario": "No Result declared",
+            "settlement": "Market void"
+          }
+        ],
+        "tip": "Important: Some competitions include Super Over as part of match result, others do not. Always check the market label."
+      },
+      "handicap": {
+        "title": "Asian Handicap & Line Markets",
+        "rows": [
+          {
+            "condition": "Handicap result met",
+            "logic": "Winning bet"
+          },
+          {
+            "condition": "Handicap exactly matched",
+            "logic": "Push / Void"
+          },
+          {
+            "condition": "Match abandoned",
+            "logic": "Market void"
+          },
+          {
+            "condition": "Reduced overs",
+            "logic": "Market may void or reprice"
+          },
+          {
+            "condition": "DLS applied",
+            "logic": "Settlement based on revised target"
+          }
+        ],
+        "note": "Handicap markets exist to balance probability, not guarantee fairness."
+      },
+      "dispute": {
+        "title": "Dispute Handling & Final Decisions",
+        "items": [
+          "Settlement is based on official results",
+          "Operator decision is final after review",
+          "Appeals must be raised promptly",
+          "Video replays or third-party stats may be referenced",
+          "Late disputes are usually rejected"
+        ]
+      },
+      "reminder": {
+        "title": "Important Reminder",
+        "items": [
+          "Settlement rules exist to remove ambiguity",
+          "Faster markets = higher risk",
+          "Always read market descriptions before betting",
+          "This documentation does not guarantee outcomes",
+          "Cricket betting should be treated as entertainment, not income"
+        ]
+      }
+    },
+    "trust": {
+      "title": "Trust & Safety Notes",
+      "subtitle": "(Important)",
+      "items": [
+        {
+          "title": "No Guaranteed Tips",
+          "desc": "There is no guaranteed tip for cricket betting."
+        },
+        {
+          "title": "Avoid Scams",
+          "desc": "Avoid anyone claiming 'fixed match' or 'sure win.'"
+        },
+        {
+          "title": "Use Budget Limits",
+          "desc": "Use budget limits and take breaks—especially for live markets."
+        },
+        {
+          "title": "Odds Shifts Are Normal",
+          "desc": "If odds shift rapidly, it's usually due to wickets, DLS, or momentum—not 'bugs.'"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ – Cricket Betting",
+      "subtitle": "(BIGWIN959 Sports Hub)",
+      "items": [
+        {
+          "q": "Which provider channel should I choose first?",
+          "a": "If you want a classic sportsbook layout, start with BTI/UG style channels. If you like market movement, explore Exchange-style channels."
+        },
+        {
+          "q": "Why do handicap lines look 'strange'?",
+          "a": "Handicap lines exist to balance two teams and create fairer odds. Different lines offer different risk levels."
+        },
+        {
+          "q": "What's the safest market for beginners?",
+          "a": "Match winner and basic totals are easier than ball-by-ball or exotic markets."
+        },
+        {
+          "q": "Why did my player bet get voided?",
+          "a": "Some player markets require the player to participate (bat/bowl). Always check market rule text."
+        },
+        {
+          "q": "Do live bets settle differently?",
+          "a": "Live bets may pause during interruptions; settlement depends on official match result and market rule text."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start Cricket Betting?",
+      "subtitle": "Visit the official platform to explore live cricket markets and place your bets safely.",
+      "play": "Go to BIGWIN959",
+      "deposit": "Learn How to Deposit"
+    },
+    "related": {
+      "title": "Related Guides",
+      "items": [
+        {
+          "title": "Registration Guide",
+          "desc": "Learn how to create your account"
+        },
+        {
+          "title": "Deposit Guide",
+          "desc": "bKash, Nagad, KBZPay methods"
+        },
+        {
+          "title": "Withdrawal Guide",
+          "desc": "Cash out your winnings safely"
+        }
+      ]
+    }
+  },
+  "cricketHowToBet": {
+    "seo": {
+      "title": "How to Bet on Cricket – Complete Step-by-Step Guide (Pre-match & Live Betting 2025)",
+      "description": "Complete guide on how to bet on cricket. Learn the step-by-step process for pre-match and live betting, provider selection, market types, and bet placement.",
+      "keywords": [
+        "how to bet on cricket",
+        "cricket betting guide",
+        "live cricket betting",
+        "pre-match cricket betting",
+        "cricket bet placement"
+      ],
+      "howTo": {
+        "name": "How to Bet on Cricket – Complete Step-by-Step Guide",
+        "description": "Step-by-step guide on how to place bets on cricket matches, including selecting providers and understanding markets.",
+        "steps": {
+          "login": {
+            "name": "Login to the Platform",
+            "text": "Visit the official BIGWIN959 website and log in with your credentials. Ensure you have sufficient funds."
+          },
+          "navigate": {
+            "name": "Navigate to Cricket Section",
+            "text": "Go to the Sports section and select Cricket from the list of sports."
+          },
+          "chooseProvider": {
+            "name": "Choose Provider",
+            "text": "Select a betting provider like BTI, UG, SBO, IBC, or Lucky Exchange based on your preference."
+          },
+          "selectMatch": {
+            "name": "Select Match",
+            "text": "Choose a match from the available list. You can select Upcoming for pre-match or Live for in-play betting."
+          },
+          "chooseMarket": {
+            "name": "Choose Market",
+            "text": "Browse the available betting markets (e.g., Match Winner, Over/Under) and click on the odds to add to your slip."
+          },
+          "reviewSlip": {
+            "name": "Review Bet Slip",
+            "text": "Check your selection, odds, and enter your stake amount. Verify potential returns."
+          },
+          "confirmBet": {
+            "name": "Confirm Bet",
+            "text": "Click the confirm button to place your bet. Wait for the acceptance confirmation."
+          }
+        }
+      }
+    },
+    "hero": {
+      "breadcrumb": "How to Bet",
+      "title": "How to Bet on Cricket",
+      "subtitle": "Complete Step-by-Step Guide (Pre-match & Live Betting)"
+    },
+    "intro": {
+      "p1": "Betting on cricket involves more than simply picking a winner. Modern cricket betting platforms offer multiple providers, various market types, different odds formats, and both pre-match and live betting options. Understanding the complete process—from logging in to confirming your bet—helps ensure you're placing bets correctly and understanding what you're betting on.",
+      "p2": "This guide walks through the entire cricket betting process step-by-step, explaining each stage in detail. Whether you're betting before the match starts or during live play, the fundamental process remains similar, with some key differences in timing and market availability.",
+      "disclaimer": "Educational guide only. This explains the betting process but does not provide betting advice or guarantee outcomes."
+    },
+    "steps": {
+      "login": {
+        "title": "Login to the Platform",
+        "desc": "The first step is accessing your account on the cricket betting platform. For users in Bangladesh and Myanmar, this typically means visiting the official platform website (such as {{domain}}) and logging in with your registered credentials.",
+        "processTitle": "Login Process",
+        "items": [
+          {
+            "title": "Visit Official Website",
+            "desc": "Always use the official domain to ensure security"
+          },
+          {
+            "title": "Enter Credentials",
+            "desc": "Username/email and password"
+          },
+          {
+            "title": "Verify Account Balance",
+            "desc": "Ensure you have sufficient funds for betting"
+          }
+        ],
+        "important": "Important: If you don't have an account yet, you'll need to complete the registration process first. Most platforms require basic information and identity verification for security purposes."
+      },
+      "navigate": {
+        "title": "Navigate to Cricket Section",
+        "desc": "Once logged in, you need to find the cricket betting section. Most platforms organize sports by category, with cricket typically being prominently featured due to its popularity in Asian markets.",
+        "findingMarkets": {
+          "title": "Finding Cricket Markets",
+          "items": [
+            "Look for \"Sports\" or \"Sportsbook\" menu",
+            "Select \"Cricket\" from sports list",
+            "Some platforms have dedicated cricket section",
+            "Use search function if available"
+          ]
+        },
+        "displayOptions": {
+          "title": "Match Display Options",
+          "items": [
+            {
+              "label": "Live/In-Play:",
+              "desc": "Matches currently happening"
+            },
+            {
+              "label": "Upcoming:",
+              "desc": "Matches starting soon"
+            },
+            {
+              "label": "Today:",
+              "desc": "All matches today"
+            },
+            {
+              "label": "Tournaments:",
+              "desc": "Organized by competition"
+            }
+          ]
+        },
+        "proTip": "Pro Tip: Many platforms allow you to filter by match format (Test, ODI, T20) or by tournament (IPL, World Cup, etc.). This helps you quickly find the specific match you want to bet on."
+      },
+      "chooseProvider": {
+        "title": "Choose Provider/Channel",
+        "desc": "Modern platforms often integrate multiple betting providers, each offering different odds, markets, and betting experiences. Understanding which provider to choose is an important part of the betting process.",
+        "providersTitle": "Common Cricket Betting Providers",
+        "providersCol1": [
+          {
+            "title": "BTI Sports",
+            "desc": "Sportsbook - Stable pricing, reliable odds"
+          },
+          {
+            "title": "UG Sports",
+            "desc": "Hybrid - Asian markets, competitive lines"
+          },
+          {
+            "title": "SBO Sports",
+            "desc": "Sportsbook - High liquidity, Asian handicap"
+          }
+        ],
+        "providersCol2": [
+          {
+            "title": "IBC Sports",
+            "desc": "Sportsbook - International markets"
+          },
+          {
+            "title": "Lucky Exchange",
+            "desc": "Exchange - Market-driven odds, back & lay"
+          }
+        ],
+        "info": "Choosing a Provider: Sportsbook providers offer fixed odds and instant execution, suitable for straightforward betting. Exchange providers offer market-driven odds and back/lay options, better for experienced users. You can compare odds across providers before placing your bet.",
+        "link": "Learn more: Exchange vs Sportsbook Explained →"
+      },
+      "selectMatch": {
+        "title": "Select Match (Pre-match vs Live)",
+        "desc": "After choosing your provider, you'll see a list of available cricket matches. The key decision here is whether to bet on a match before it starts (pre-match) or during the game (live/in-play). Each option has different advantages and considerations.",
+        "preMatch": {
+          "title": "Pre-match Betting",
+          "advantages": {
+            "title": "Advantages:",
+            "items": [
+              "More time to research and analyze",
+              "Full range of markets available",
+              "Stable odds (less volatility)",
+              "Better for strategic planning"
+            ]
+          },
+          "considerations": {
+            "title": "Considerations:",
+            "items": [
+              "Weather/pitch conditions unknown",
+              "Team changes possible",
+              "No live momentum reading"
+            ]
+          }
+        },
+        "liveBetting": {
+          "title": "Live/In-Play Betting",
+          "advantages": {
+            "title": "Advantages:",
+            "items": [
+              "See actual match conditions",
+              "React to momentum shifts",
+              "Watch team performance first",
+              "Dynamic odds opportunities"
+            ]
+          },
+          "considerations": {
+            "title": "Considerations:",
+            "items": [
+              "Rapidly changing odds",
+              "Limited time for decisions",
+              "Some markets may close"
+            ]
+          }
+        },
+        "displayInfo": {
+          "title": "Match Information Display",
+          "desc": "When selecting a match, you'll typically see:",
+          "col1": [
+            {
+              "label": "Teams:",
+              "desc": "Full team names and abbreviations"
+            },
+            {
+              "label": "Format:",
+              "desc": "Test, ODI, T20, T10"
+            },
+            {
+              "label": "Tournament:",
+              "desc": "Competition name"
+            }
+          ],
+          "col2": [
+            {
+              "label": "Start Time:",
+              "desc": "Local time zone"
+            },
+            {
+              "label": "Venue:",
+              "desc": "Stadium and location"
+            },
+            {
+              "label": "Status:",
+              "desc": "Upcoming, Live, or Completed"
+            }
+          ]
+        }
+      },
+      "chooseMarket": {
+        "title": "Choose Market Type",
+        "desc": "Once you've selected a match, you'll see various betting markets available. Each market type offers different ways to bet on the match outcome. Understanding these markets is crucial for successful cricket betting.",
+        "cards": [
+          {
+            "title": "Match Winner",
+            "desc": "Simple bet on which team wins the match",
+            "example": {
+              "title": "Example odds:",
+              "lines": [
+                "Team A: 1.85",
+                "Team B: 1.95"
+              ]
+            }
+          },
+          {
+            "title": "Handicap Betting",
+            "desc": "Bet with runs advantage/disadvantage",
+            "example": {
+              "title": "Example:",
+              "lines": [
+                "Team A -15.5 runs: 1.90",
+                "Team B +15.5 runs: 1.90"
+              ]
+            }
+          },
+          {
+            "title": "Over/Under Totals",
+            "desc": "Bet on total runs scored in match",
+            "example": {
+              "title": "Example:",
+              "lines": [
+                "Over 320.5 runs: 1.85",
+                "Under 320.5 runs: 1.95"
+              ]
+            }
+          },
+          {
+            "title": "Session Betting",
+            "desc": "Bet on specific overs or innings",
+            "example": {
+              "title": "Example:",
+              "lines": [
+                "1st 10 overs runs",
+                "Over/Under 65.5"
+              ]
+            }
+          },
+          {
+            "title": "Player Markets",
+            "desc": "Individual player performance bets",
+            "example": {
+              "title": "Examples:",
+              "lines": [
+                "Top batsman",
+                "Most wickets"
+              ]
+            }
+          },
+          {
+            "title": "Special Markets",
+            "desc": "Unique betting opportunities",
+            "example": {
+              "title": "Examples:",
+              "lines": [
+                "Method of dismissal",
+                "Highest opening partnership"
+              ]
+            }
+          }
+        ],
+        "link": "Learn more: Complete Cricket Bet Types Guide →"
+      },
+      "reviewSlip": {
+        "title": "Review Bet Slip",
+        "desc": "After selecting your market and clicking on the odds, your bet will be added to the bet slip. This is where you review all the details before confirming your wager. The bet slip shows crucial information that you must verify before proceeding.",
+        "slipInfo": {
+          "title": "Bet Slip Information",
+          "categories": [
+            {
+              "title": "Selection Details",
+              "items": [
+                {
+                  "label": "Match:",
+                  "desc": "Team names and tournament"
+                },
+                {
+                  "label": "Market:",
+                  "desc": "Type of bet (Winner, Handicap, etc.)"
+                },
+                {
+                  "label": "Selection:",
+                  "desc": "Your specific choice"
+                },
+                {
+                  "label": "Odds:",
+                  "desc": "Current odds for your selection"
+                }
+              ]
+            },
+            {
+              "title": "Stake Information",
+              "items": [
+                {
+                  "label": "Stake Amount:",
+                  "desc": "How much you're betting"
+                },
+                {
+                  "label": "Potential Return:",
+                  "desc": "Total if you win"
+                },
+                {
+                  "label": "Potential Profit:",
+                  "desc": "Profit if you win"
+                }
+              ]
+            },
+            {
+              "title": "Settlement Conditions",
+              "items": [
+                {
+                  "label": "Result Source:",
+                  "desc": "Official match result"
+                },
+                {
+                  "label": "Dead Heat Rules:",
+                  "desc": "If applicable"
+                },
+                {
+                  "label": "Void Conditions:",
+                  "desc": "When bet is cancelled"
+                }
+              ]
+            },
+            {
+              "title": "Important Notes",
+              "items": [
+                {
+                  "label": "Odds Changes:",
+                  "desc": "May update before confirmation"
+                },
+                {
+                  "label": "Acceptance:",
+                  "desc": "Platform may reject bet"
+                },
+                {
+                  "label": "Limits:",
+                  "desc": "Minimum/maximum stake amounts"
+                }
+              ]
+            }
+          ]
+        },
+        "criticalCheck": "Critical Check: Always verify the match details, your selection, odds, and stake amount before confirming. Once confirmed, bets typically cannot be cancelled.",
+        "sampleSlip": {
+          "title": "Sample Bet Slip Review",
+          "match": {
+            "label": "Match:",
+            "value": "India vs Australia (ODI)"
+          },
+          "market": {
+            "label": "Market:",
+            "value": "Match Winner"
+          },
+          "selection": {
+            "label": "Selection:",
+            "value": "India to Win"
+          },
+          "odds": {
+            "label": "Odds:",
+            "value": "1.85"
+          },
+          "stake": {
+            "label": "Stake:",
+            "value": "$100"
+          },
+          "return": {
+            "label": "Potential Return:",
+            "value": "$185"
+          },
+          "profit": {
+            "label": "Potential Profit:",
+            "value": "$85"
+          }
+        }
+      },
+      "confirmBet": {
+        "title": "Confirm Bet",
+        "desc": "The final step is confirming your bet. This is the point of no return—once you click confirm and the bet is accepted, it becomes active and cannot be cancelled. The confirmation process may vary slightly between providers, but the core elements remain the same.",
+        "process": {
+          "title": "Confirmation Process",
+          "steps": [
+            {
+              "title": "Final Review",
+              "desc": "Double-check all bet details one last time"
+            },
+            {
+              "title": "Click Confirm",
+              "desc": "Press the confirm/place bet button"
+            },
+            {
+              "title": "Wait for Acceptance",
+              "desc": "Platform processes and accepts/rejects bet"
+            },
+            {
+              "title": "Confirmation Receipt",
+              "desc": "Get bet reference number and details"
+            }
+          ]
+        },
+        "outcomes": {
+          "title": "Possible Outcomes",
+          "accepted": {
+            "title": "Bet Accepted",
+            "desc": "Your bet is confirmed and active. You'll receive a bet reference number."
+          },
+          "rejected": {
+            "title": "Bet Rejected",
+            "desc": "Platform declined your bet. Stake is returned to your account."
+          },
+          "changed": {
+            "title": "Odds Changed",
+            "desc": "Odds updated during placement. You can accept new odds or cancel."
+          }
+        },
+        "afterConfirmation": {
+          "title": "After Bet Confirmation",
+          "items": [
+            {
+              "title": "Bet Tracking",
+              "desc": "Monitor your bet in \"My Bets\" or \"Bet History\" section"
+            },
+            {
+              "title": "Live Updates",
+              "desc": "Follow match progress and see how your bet is performing"
+            },
+            {
+              "title": "Settlement",
+              "desc": "Winnings automatically credited after match completion"
+            }
+          ]
+        }
+      }
+    },
+    "comparison": {
+      "title": "Pre-match vs Live Betting: Key Differences",
+      "desc": "While the basic betting process remains the same, there are important differences between pre-match and live betting that affect your strategy and experience.",
+      "preMatch": {
+        "title": "Pre-match Betting",
+        "items": [
+          {
+            "title": "Market Availability",
+            "desc": "Full range of markets available, including long-term and special bets"
+          },
+          {
+            "title": "Odds Stability",
+            "desc": "Odds change gradually based on betting volume and news"
+          },
+          {
+            "title": "Research Time",
+            "desc": "Plenty of time to analyze teams, conditions, and statistics"
+          },
+          {
+            "title": "Settlement",
+            "desc": "Results determined after match completion"
+          }
+        ]
+      },
+      "liveBetting": {
+        "title": "Live/In-Play Betting",
+        "items": [
+          {
+            "title": "Market Availability",
+            "desc": "Limited markets, focus on immediate outcomes and next events"
+          },
+          {
+            "title": "Odds Volatility",
+            "desc": "Rapid odds changes based on match events and momentum"
+          },
+          {
+            "title": "Decision Speed",
+            "desc": "Quick decisions required, limited time for analysis"
+          },
+          {
+            "title": "Settlement",
+            "desc": "Some bets settle immediately, others at match end"
+          }
+        ]
+      },
+      "strategy": {
+        "title": "Strategic Considerations",
+        "preMatch": {
+          "title": "Pre-match Strategy:",
+          "items": [
+            "Research team form and head-to-head records",
+            "Check weather and pitch conditions",
+            "Compare odds across different providers",
+            "Consider long-term value bets"
+          ]
+        },
+        "live": {
+          "title": "Live Betting Strategy:",
+          "items": [
+            "Watch match momentum and conditions",
+            "React to team performance and tactics",
+            "Take advantage of odds swings",
+            "Focus on immediate next events"
+          ]
+        }
+      },
+      "oddsFormats": {
+        "title": "Understanding Odds Formats",
+        "desc": "Cricket betting platforms offer odds in different formats. Understanding these formats helps you calculate potential returns and compare value across different providers.",
+        "types": [
+          {
+            "title": "Decimal Odds",
+            "odds": "1.85",
+            "sub": "Most common format",
+            "calc": {
+              "title": "Calculation:",
+              "lines": [
+                "Return = Stake × Odds",
+                "$100 × 1.85 = $185"
+              ],
+              "profit": "Profit: $85"
+            }
+          },
+          {
+            "title": "Hong Kong Odds",
+            "odds": "0.85",
+            "sub": "Popular in Asia",
+            "calc": {
+              "title": "Calculation:",
+              "lines": [
+                "Profit = Stake × HK Odds",
+                "$100 × 0.85 = $85"
+              ],
+              "profit": "Total Return: $185"
+            }
+          },
+          {
+            "title": "Indonesian Odds",
+            "odds": "-1.18",
+            "sub": "Negative for favorites",
+            "calc": {
+              "title": "Calculation:",
+              "lines": [
+                "If negative: Stake/|Indo|",
+                "$100/1.18 = $84.75"
+              ],
+              "profit": "Profit: $84.75"
+            }
+          },
+          {
+            "title": "Malay Odds",
+            "odds": "-0.85",
+            "sub": "Similar to Indonesian",
+            "calc": {
+              "title": "Calculation:",
+              "lines": [
+                "If negative: Stake/|Malay|",
+                "$100/0.85 = $117.65"
+              ],
+              "profit": "Profit: $117.65"
+            }
+          }
+        ],
+        "table": {
+          "title": "Odds Conversion Quick Reference",
+          "headers": [
+            "Decimal",
+            "Hong Kong",
+            "Indonesian",
+            "Malay",
+            "Implied Probability"
+          ]
+        }
+      }
+    },
+    "relatedGuides": {
+      "title": "Related Cricket Betting Guides",
+      "items": [
+        {
+          "title": "Cricket Bet Types",
+          "desc": "Complete guide to all cricket betting markets and how they work"
+        },
+        {
+          "title": "Settlement Rules",
+          "desc": "Understand how bets are settled and what happens in different scenarios"
+        },
+        {
+          "title": "Exchange vs Sportsbook",
+          "desc": "Learn the differences between exchange and sportsbook betting"
+        },
+        {
+          "title": "Confusing Situations",
+          "desc": "Navigate complex scenarios like rain delays and DLS method"
+        },
+        {
+          "title": "Cricket FAQ",
+          "desc": "Answers to frequently asked questions about cricket betting"
+        },
+        {
+          "title": "Complete Cricket Guide",
+          "desc": "Return to the main cricket betting guide overview"
+        }
+      ]
+    },
+    "oddsFormats": {
+      "title": "Understanding Odds Formats",
+      "desc": "Cricket betting platforms offer odds in different formats. Understanding these formats helps you calculate potential returns and compare value across different providers."
+    }
+  },
+  "cricketBetTypes": {
+    "seo": {
+      "title": "Cricket Bet Types Explained – Markets, Odds and How Cricket Bets Work (2025)",
+      "description": "Complete guide to cricket betting markets. Learn Match Winner, Handicap, Over/Under, Session bets, Player markets, and Exchange-style betting with settlement logic.",
+      "keywords": [
+        "cricket bet types",
+        "cricket betting markets",
+        "match winner bet",
+        "handicap betting cricket",
+        "over under cricket",
+        "session betting"
+      ],
+      "schema": {
+        "headline": "Cricket Bet Types Explained – Markets, Odds and How Cricket Bets Work (2025)",
+        "description": "Complete guide to cricket betting markets. Learn Match Winner, Handicap, Over/Under, Session bets, Player markets, and Exchange-style betting with settlement logic."
+      }
+    },
+    "hero": {
+      "title": "Cricket Bet Types Explained",
+      "subtitle": "Markets, Odds, and Settlement Logic",
+      "breadcrumbs": {
+        "guides": "Guides",
+        "cricketGuide": "Cricket Betting Guide",
+        "betTypes": "Bet Types"
+      }
+    },
+    "intro": {
+      "p1": "Cricket betting offers a wide range of market types that behave differently depending on match format, timing, and settlement rules. Unlike simple \"win or lose\" bets, cricket markets are designed to reflect the unique flow of the game, including innings structure, overs, weather impact, and live momentum changes.",
+      "p2": "This guide explains the most common cricket bet types used across sportsbook and exchange-style platforms, with a focus on how each market works, how odds are applied, and how bets are settled. The explanations below follow industry-standard logic used by professional cricket betting providers serving players in Bangladesh and Myanmar.",
+      "disclaimer": "<strong>Educational content only.</strong> No betting strategy or profit guarantee is implied."
+    },
+    "matchWinner": {
+      "title": "Match Winner (Moneyline)",
+      "whatIs": {
+        "title": "What Is a Match Winner Bet in Cricket?",
+        "p1": "The Match Winner market is the most straightforward and widely used cricket bet type. In this market, players simply select which team they believe will win the match. The outcome is determined by the official match result as declared by the governing body or tournament authority.",
+        "p2": "However, unlike football, cricket matches can end in situations such as <strong class=\"text-white\">No Result, Tie, or Super Over</strong>, which directly affect how Match Winner bets are settled. If a match is abandoned due to weather before meeting minimum overs requirements, Match Winner bets are typically void. If the match result is decided using the <strong class=\"text-white\">Duckworth–Lewis–Stern (DLS) method</strong>, the DLS-adjusted winner is used for settlement.",
+        "p3": "In tournaments that allow Super Overs, the Super Over winner is usually considered the official match winner unless stated otherwise in the market description. This distinction is important because different platforms may label markets as \"Match Winner (Including Super Over)\" or \"Match Winner (Regular Overs Only).\""
+      },
+      "settlement": {
+        "title": "Key Settlement Points",
+        "points": [
+          "Official result as declared by governing body is final",
+          "DLS-adjusted winner counts for settlement",
+          "Super Over winner typically counts unless specified otherwise",
+          "Bets void if match abandoned before minimum overs"
+        ]
+      },
+      "important": "<strong>Important:</strong> Because of these variations, players should always review the market description before placing a Match Winner bet, especially during knockout matches or rain-affected fixtures."
+    },
+    "handicap": {
+      "title": "Handicap Bets (Run Line / Asian Handicap)",
+      "howItWorks": {
+        "title": "How Handicap Betting Works in Cricket",
+        "p1": "Handicap betting in cricket is designed to balance uneven matches by giving one team a virtual advantage or disadvantage in runs or wickets. This market is commonly used when one team is significantly stronger than the other, making simple Match Winner odds unattractive.",
+        "p2": "For example, a team may be given a <strong class=\"text-white\">-10.5 run handicap</strong>, meaning they must win the match by at least 11 runs for the bet to be successful. Conversely, a weaker team might receive a <strong class=\"text-white\">+10.5 run handicap</strong>, allowing them to lose by up to 10 runs while still covering the bet.",
+        "p3": "Handicap bets are settled after the final result is confirmed, including any DLS adjustments. In rain-affected matches where the official result stands, handicap calculations are applied to the final adjusted score. If the match is abandoned with no official result, handicap bets are usually void."
+      },
+      "examples": {
+        "strong": {
+          "title": "Example: Strong Team",
+          "team": "Team A: -10.5 runs",
+          "desc": "Must win by 11+ runs for bet to win"
+        },
+        "weak": {
+          "title": "Example: Weak Team",
+          "team": "Team B: +10.5 runs",
+          "desc": "Can lose by up to 10 runs and bet still wins"
+        }
+      },
+      "whyPopular": "<strong>Why Popular:</strong> Handicap markets are popular among experienced bettors because they offer more competitive odds and reflect relative team strength more accurately than simple winner markets."
+    },
+    "overUnder": {
+      "title": "Over / Under (Total Runs or Wickets)",
+      "understanding": {
+        "title": "Understanding Over/Under Markets in Cricket",
+        "p1": "Over/Under betting allows players to wager on whether a specific statistic will exceed or fall below a predefined line. In cricket, this typically includes total match runs, team runs, innings runs, or total wickets.",
+        "p2": "For example, a market may offer <strong class=\"text-white\">\"Total Match Runs Over/Under 312.5.\"</strong> If the combined runs scored by both teams exceed 312, the Over bet wins; otherwise, the Under bet wins.",
+        "p3": "Settlement depends on the completion of the relevant innings. If a match is shortened but officially completed under DLS, Over/Under bets are settled based on the final adjusted totals. However, if the relevant innings does not reach the minimum threshold defined by the market, the bet may be void."
+      },
+      "commonMarkets": {
+        "title": "Common Over/Under Markets",
+        "items": [
+          {
+            "title": "Match Total Runs",
+            "desc": "Combined runs by both teams"
+          },
+          {
+            "title": "Team Total Runs",
+            "desc": "Single team's total runs"
+          },
+          {
+            "title": "Innings Total",
+            "desc": "Specific innings score"
+          },
+          {
+            "title": "Powerplay Runs",
+            "desc": "First 6 overs (T20/ODI)"
+          }
+        ]
+      },
+      "liveBetting": "<strong>Live Betting:</strong> Over/Under markets are especially common in live betting, where lines update dynamically based on run rate, remaining overs, and wickets lost. Because these markets are sensitive to in-play events, odds can change rapidly during live action."
+    },
+    "session": {
+      "title": "Session & Inning-Based Bets",
+      "whatAre": {
+        "title": "What Are Session Bets in Cricket?",
+        "p1": "Session betting focuses on specific segments of a match rather than the final result. Common session markets include Powerplay runs, first 10 overs, first innings total, or team to score highest in a specific phase.",
+        "p2": "These markets are popular in live betting environments because they allow players to engage with the game in smaller time frames. For example, a bet may be placed on whether a team will score more than 55 runs in the first 6 overs of a T20 match.",
+        "p3": "Session bets are settled once the defined segment is completed. If the session is interrupted and cannot be completed, the bet may be void depending on platform rules. Unlike full-match markets, session bets are less affected by overall match outcomes and more influenced by immediate performance."
+      },
+      "types": [
+        {
+          "title": "Powerplay Runs",
+          "desc": "First 6 overs total"
+        },
+        {
+          "title": "First 10 Overs",
+          "desc": "Opening phase runs"
+        },
+        {
+          "title": "Over-by-Over",
+          "desc": "Specific over total"
+        }
+      ],
+      "important": "<strong>Important:</strong> Session bets are less affected by overall match outcome and more influenced by immediate performance. They offer faster results but require close attention to in-play conditions."
+    },
+    "playerMarkets": {
+      "title": "Player Performance Markets",
+      "stats": {
+        "title": "Individual Player Statistics",
+        "p1": "Player markets focus on individual performance rather than team outcomes. These markets are popular because they allow bettors to leverage knowledge of specific players' form, conditions, and matchups.",
+        "p2": "Common player markets include Top Batsman, Top Bowler, Player Runs Over/Under, Player Wickets, and Most Sixes/Fours. Settlement typically requires the player to participate in the match - if a player doesn't bat or bowl, bets are usually void."
+      },
+      "batting": {
+        "title": "Batting Markets",
+        "items": [
+          "Top Batsman - Highest scorer in match/innings",
+          "Player Runs O/U - 30.5, 50.5, 100.5 runs",
+          "Most Sixes/Fours - Player with most boundaries"
+        ]
+      },
+      "bowling": {
+        "title": "Bowling Markets",
+        "items": [
+          "Top Bowler - Most wickets in match/innings",
+          "Player Wickets - 2+, 3+ wickets",
+          "Best Bowling Figures - Economy rate, maidens"
+        ]
+      },
+      "criticalRule": "<strong>Critical Rule:</strong> Player must participate for bet to stand. If a player doesn't bat or bowl due to injury, tactical decision, or match conditions, bets are typically void."
+    },
+    "exchange": {
+      "title": "Exchange-Style Markets (Back & Lay)",
+      "vsSportsbook": {
+        "title": "Exchange Betting vs Traditional Sportsbook Markets",
+        "p1": "Exchange-style cricket markets allow users to bet for (Back) or against (Lay) an outcome, effectively acting as a market participant rather than betting against the platform. Odds in exchange markets are determined by supply and demand, not fixed pricing.",
+        "p2": "This structure offers greater flexibility but also introduces additional complexity. Exchange bets may settle differently during abandoned matches or unusual situations, and liquidity plays a major role in price stability.",
+        "p3": "Exchange markets are commonly used for Match Odds, Session Markets, and Player Performance, and are best suited for users who understand how market-driven odds work."
+      },
+      "back": {
+        "title": "Back (Bet For)",
+        "desc": "Betting on an outcome to happen. Similar to traditional betting.",
+        "example": "Example: Back Team A to win at odds of 2.00"
+      },
+      "lay": {
+        "title": "Lay (Bet Against)",
+        "desc": "Betting on an outcome NOT to happen. Acting as the bookmaker.",
+        "example": "Example: Lay Team A to win - you win if they lose or draw"
+      },
+      "differences": {
+        "title": "Key Differences from Sportsbook",
+        "items": [
+          "<strong class=\"text-white\">Market-Driven Odds:</strong> Prices determined by supply and demand, not platform",
+          "<strong class=\"text-white\">Liquidity Impact:</strong> Price stability depends on market activity and volume",
+          "<strong class=\"text-white\">Commission:</strong> Typically charged on net winnings (e.g., 2-5%)",
+          "<strong class=\"text-white\">Settlement Variations:</strong> May differ during abandoned matches or unusual situations"
+        ]
+      },
+      "advancedOnly": "<strong>Advanced Users Only:</strong> Exchange markets offer greater flexibility but require understanding of market-driven odds, liquidity, and settlement mechanics. Best for experienced bettors."
+    },
+    "summary": {
+      "title": "Summary: Choosing the Right Cricket Bet Type",
+      "p1": "Cricket offers a diverse set of betting markets designed to reflect the complexity of the sport itself. <strong class=\"text-white\">Match Winner bets</strong> provide simplicity, while <strong class=\"text-white\">Handicap and Over/Under markets</strong> offer more nuanced exposure. <strong class=\"text-white\">Session and exchange-style markets</strong> allow deeper engagement but require a stronger understanding of settlement logic.",
+      "p2": "Choosing the right bet type depends on match format, platform rules, and personal familiarity with cricket dynamics. Understanding how each market works is essential for avoiding confusion and ensuring informed participation.",
+      "disclaimer": "This documentation does not guarantee outcomes. Cricket betting should be treated as entertainment, not income."
+    },
+    "relatedGuides": {
+      "title": "Related Cricket Guides",
+      "items": [
+        {
+          "title": "Cricket Betting Guide",
+          "desc": "Complete guide to cricket betting"
+        },
+        {
+          "title": "How to Bet",
+          "desc": "Step-by-step betting process"
+        },
+        {
+          "title": "Settlement Rules",
+          "desc": "How bets are settled"
+        },
+        {
+          "title": "Cricket FAQ",
+          "desc": "Common questions answered"
+        }
+      ]
+    }
+  },
+  "cricketSettlementRules": {
+    "seo": {
+      "title": "Cricket Settlement Rules – Full Documentation (Sportsbook & Exchange Markets 2025)",
+      "description": "Cricket settlement rules documentation. Learn how sportsbook and exchange cricket markets settle, including abandoned matches, DLS, Super Over, live betting, and player markets.",
+      "keywords": [
+        "cricket settlement rules",
+        "cricket betting rules",
+        "DLS cricket betting",
+        "Super Over settlement",
+        "cricket exchange rules",
+        "abandoned match betting"
+      ],
+      "schema": {
+        "headline": "Cricket Settlement Rules – Full Documentation (Sportsbook & Exchange Markets 2025)",
+        "description": "Cricket settlement rules documentation. Learn how sportsbook and exchange cricket markets settle, including abandoned matches, DLS, Super Over, live betting, and player markets."
+      }
+    },
+    "hero": {
+      "breadcrumbs": {
+        "guides": "Guides",
+        "cricketGuide": "Cricket Betting Guide",
+        "settlementRules": "Settlement Rules"
+      },
+      "badge": "Rules & Settlement Documentation",
+      "title": "Cricket Settlement Rules",
+      "subtitle": "Full Documentation for Sportsbook & Exchange Markets (2025)",
+      "intro": "This document explains how cricket betting markets are settled across different sportsbook and exchange-style channels.",
+      "points": [
+        "Clarify how and when bets are settled",
+        "Explain void, half-void, and winning conditions",
+        "Cover abnormal match situations (rain, DLS, Super Over, abandoned matches)",
+        "Apply across multiple sportsbook infrastructures (fixed odds & exchange models)"
+      ],
+      "disclaimer": "<strong>This is an informational rule reference.</strong> Final settlement always follows the official match result and market-specific rule text."
+    },
+    "corePrinciples": {
+      "title": "General Settlement Principles",
+      "subtitle": "(Non-Negotiable)",
+      "description": "The following principles apply to all cricket betting markets unless explicitly stated otherwise:",
+      "list": [
+        {
+          "title": "Official Result Rule",
+          "desc": "Bets are settled based on the official result declared by the recognized governing body or match authority."
+        },
+        {
+          "title": "Market-Specific Priority",
+          "desc": "Each market has its own settlement conditions. If a market rule conflicts with general rules, the market rule prevails."
+        },
+        {
+          "title": "Completion Requirement",
+          "desc": "Some markets require: Match completion, Innings completion, or Player participation."
+        },
+        {
+          "title": "Timing Finality",
+          "desc": "Once a market is settled, later statistical corrections do not change settlement."
+        }
+      ]
+    },
+    "marketStatus": {
+      "title": "Market Status Definitions",
+      "subtitle": "(Very Important)",
+      "description": "Understanding these statuses prevents most disputes.",
+      "headers": {
+        "status": "Status",
+        "meaning": "Meaning"
+      },
+      "rows": [
+        {
+          "status": "Settled",
+          "meaning": "Result confirmed and bet finalized"
+        },
+        {
+          "status": "Void",
+          "meaning": "Bet cancelled and stake returned"
+        },
+        {
+          "status": "Half-Void",
+          "meaning": "Part of stake returned, part settled"
+        },
+        {
+          "status": "Pending",
+          "meaning": "Awaiting official confirmation"
+        },
+        {
+          "status": "Suspended",
+          "meaning": "Temporarily paused (live markets)"
+        }
+      ]
+    },
+    "matchResult": {
+      "title": "Match Winner / Match Result",
+      "headers": {
+        "scenario": "Scenario",
+        "settlement": "Settlement"
+      },
+      "rows": [
+        {
+          "scenario": "Match completed normally",
+          "settlement": "Bets settled on winner"
+        },
+        {
+          "scenario": "Tie (no Super Over)",
+          "settlement": "Tie rules apply"
+        },
+        {
+          "scenario": "Super Over played",
+          "settlement": "Settlement depends on 'Includes Super Over'"
+        },
+        {
+          "scenario": "Match abandoned",
+          "settlement": "Market void unless stated otherwise"
+        },
+        {
+          "scenario": "No Result declared",
+          "settlement": "Market void"
+        }
+      ],
+      "important": "<strong>Important:</strong> Some competitions include Super Over as part of match result, others do not. Always check the market label."
+    },
+    "handicapMarkets": {
+      "title": "Asian Handicap & Line Markets",
+      "headers": {
+        "condition": "Condition",
+        "logic": "Settlement Logic"
+      },
+      "rows": [
+        {
+          "condition": "Handicap result met",
+          "logic": "Winning bet"
+        },
+        {
+          "condition": "Handicap exactly matched",
+          "logic": "Push / Void"
+        },
+        {
+          "condition": "Match abandoned",
+          "logic": "Market void"
+        },
+        {
+          "condition": "Reduced overs",
+          "logic": "Market may void or reprice"
+        },
+        {
+          "condition": "DLS applied",
+          "logic": "Settlement based on revised target"
+        }
+      ],
+      "note": "Handicap markets exist to balance probability, not guarantee fairness."
+    },
+    "totalsMarkets": {
+      "title": "Total Runs Markets (Over / Under)",
+      "headers": {
+        "marketType": "Market Type",
+        "requirement": "Requirement"
+      },
+      "rows": [
+        {
+          "type": "Match Total",
+          "req": "Full match required"
+        },
+        {
+          "type": "Team Total",
+          "req": "Team innings completion"
+        },
+        {
+          "type": "Innings Total",
+          "req": "That innings must start"
+        },
+        {
+          "type": "Powerplay Total",
+          "req": "Powerplay overs must be completed"
+        }
+      ],
+      "warning": "If required overs are not completed, the market is typically void."
+    },
+    "microMarkets": {
+      "title": "Micro & Event-Based Markets",
+      "headers": {
+        "market": "Market",
+        "condition": "Settlement Condition"
+      },
+      "rows": [
+        {
+          "market": "Over Runs",
+          "condition": "Entire over must be completed"
+        },
+        {
+          "market": "Next Over",
+          "condition": "Next over must begin"
+        },
+        {
+          "market": "First Ball",
+          "condition": "Ball must be delivered"
+        },
+        {
+          "market": "First Over Total",
+          "condition": "Over must complete"
+        },
+        {
+          "market": "Next Wicket",
+          "condition": "Wicket must fall"
+        }
+      ],
+      "note": "These markets are high volatility and often suspended during interruptions."
+    },
+    "playerPerformance": {
+      "title": "Player-Based Markets",
+      "headers": {
+        "scenario": "Scenario",
+        "settlement": "Settlement"
+      },
+      "rows": [
+        {
+          "scenario": "Player starts as expected",
+          "settlement": "Market active"
+        },
+        {
+          "scenario": "Player does not bat/bowl",
+          "settlement": "Market void"
+        },
+        {
+          "scenario": "Retired hurt",
+          "settlement": "Depends on market wording"
+        },
+        {
+          "scenario": "Substituted player",
+          "settlement": "Usually void"
+        },
+        {
+          "scenario": "Player injured pre-match",
+          "settlement": "Market void"
+        }
+      ],
+      "note": "Player markets require actual participation, not squad listing."
+    },
+    "liveBetting": {
+      "title": "Live (In-Play) Betting Specific Rules",
+      "suspension": {
+        "title": "Suspension Windows",
+        "desc": "Markets may suspend during:",
+        "items": [
+          "Wickets",
+          "Review decisions",
+          "Rain delays",
+          "Boundary checks"
+        ]
+      },
+      "acceptance": {
+        "title": "Acceptance Timing",
+        "desc": "Bets placed after an event occurs but before odds update may be voided."
+      },
+      "latency": {
+        "title": "Latency Risk",
+        "desc": "Exchange-style markets update faster than sportsbook feeds."
+      }
+    },
+    "abnormalEvents": {
+      "title": "Non-Standard Cricket Events & Settlement",
+      "subtitle": "(Critical Section)",
+      "headers": {
+        "event": "Event",
+        "settlement": "How Settlement Works"
+      },
+      "rows": [
+        {
+          "event": "Rain interruption",
+          "settlement": "DLS may apply"
+        },
+        {
+          "event": "DLS target change",
+          "settlement": "New target governs settlement"
+        },
+        {
+          "event": "Match reduced overs",
+          "settlement": "Some markets void"
+        },
+        {
+          "event": "Abandoned mid-innings",
+          "settlement": "Partial markets may stand"
+        },
+        {
+          "event": "Super Over",
+          "settlement": "Market dependent"
+        },
+        {
+          "event": "Forfeit",
+          "settlement": "Official result governs"
+        },
+        {
+          "event": "Match restarted",
+          "settlement": "New markets may open"
+        }
+      ]
+    },
+    "multiProvider": {
+      "title": "Multi-Provider Rule Scope",
+      "subtitle": "These settlement principles apply across:",
+      "desc": "Multiple sportsbook and exchange platforms",
+      "items": [
+        {
+          "title": "Fixed-odds sportsbook models",
+          "desc": "Traditional betting platforms"
+        },
+        {
+          "title": "Exchange / trading-style markets",
+          "desc": "Peer-to-peer betting systems"
+        },
+        {
+          "title": "Asian handicap–focused platforms",
+          "desc": "Specialized handicap markets"
+        },
+        {
+          "title": "Multi-channel providers",
+          "desc": "Lucky Exchange, BTI Sports, UG Sport, IBC Sports, SBO Sports"
+        }
+      ],
+      "note": "Each provider may display slightly different wording, but the core logic remains consistent."
+    },
+    "disputes": {
+      "title": "Dispute Handling & Final Decisions",
+      "subtitle": "Settlement Finality Process",
+      "list": [
+        "Settlement is based on official results",
+        "Operator decision is final after review",
+        "Appeals must be raised promptly",
+        "Video replays or third-party stats may be referenced",
+        "Late disputes are usually rejected"
+      ]
+    },
+    "importantReminder": {
+      "title": "Important Reminder",
+      "subtitle": "Responsible Use Notice",
+      "list": [
+        "Settlement rules exist to remove ambiguity",
+        "Faster markets = higher risk",
+        "Always read market descriptions before betting",
+        "This documentation does not guarantee outcomes",
+        "Cricket betting should be treated as entertainment, not income"
+      ]
+    },
+    "faq": {
+      "title": "Settlement FAQ",
+      "subtitle": "(Rule-Level Questions)",
+      "items": [
+        {
+          "question": "Why was my bet void when the match had a winner?",
+          "answer": "Because that market required full completion or excluded Super Over. Different markets have different completion requirements."
+        },
+        {
+          "question": "Why did my live bet get cancelled?",
+          "answer": "It may have been placed during a suspension window (wicket, review, rain delay) or after an event occurred but before odds updated."
+        },
+        {
+          "question": "Why did some bets settle and others void?",
+          "answer": "Different markets have different completion requirements. For example, match winner requires full match completion, but some session markets may settle even if the match is abandoned."
+        },
+        {
+          "question": "Do exchange markets settle differently?",
+          "answer": "The structure differs, but settlement still follows official outcomes. Exchange markets may update faster and have different void conditions."
+        }
+      ]
+    },
+    "finalNote": {
+      "title": "Final Note",
+      "desc": "This documentation exists to reduce confusion, not promise certainty. Cricket is a complex sport; betting systems reflect that complexity.",
+      "viewGuide": "View Cricket Betting Guide",
+      "visitPlatform": "Visit Official Platform"
+    },
+    "footer": {
+      "copyright": "© 2025 BIGWIN959 Cricket Settlement Rules | Independent Information Resource",
+      "disclaimer": "This is an informational documentation page. Always refer to official platform rules for final settlement decisions."
+    }
+  },
+  "cricketConfusingSituations": {
+    "seo": {
+      "title": "Cricket Betting Confusing Situations Explained – Rain, DLS, Super Over, Void & Live Suspensions",
+      "description": "Complete guide to confusing cricket betting situations. Learn how rain, DLS, Super Over, live suspensions, and void bets are handled with official settlement logic.",
+      "keywords": [
+        "cricket rain betting",
+        "DLS cricket betting",
+        "Super Over settlement",
+        "void cricket bets",
+        "live market suspension",
+        "cricket confusing situations"
+      ],
+      "schema": {
+        "headline": "Cricket Betting Confusing Situations Explained – Rain, DLS, Super Over, Void & Live Suspensions",
+        "description": "Complete guide to confusing cricket betting situations. Learn how rain, DLS, Super Over, live suspensions, and void bets are handled with official settlement logic."
+      }
+    },
+    "hero": {
+      "breadcrumbs": {
+        "guides": "Guides",
+        "cricketGuide": "Cricket Betting Guide",
+        "confusingSituations": "Confusing Situations"
+      },
+      "title": "Cricket Betting Confusing Situations Explained",
+      "subtitle": "Official Settlement Logic & Real Examples"
+    },
+    "intro": {
+      "p1": "Cricket betting is often perceived as confusing not because platforms operate unfairly, but because <strong class=\"text-white\">cricket itself is governed by complex match rules, external interruptions, and format-specific decisions</strong>. Situations such as rain interruptions, Duckworth–Lewis–Stern (DLS) adjustments, Super Overs, or sudden live market suspensions frequently cause misunderstandings among players.",
+      "p2": "This page explains the most common confusing situations in cricket betting, using the same settlement logic applied by professional sportsbook and exchange platforms. Each situation is explained in detail to help users understand why certain bets are settled, voided, or suspended.",
+      "disclaimer": "<strong>Educational reference only.</strong> Final settlement always follows official match results and market-specific rules."
+    },
+    "rain": {
+      "title": "Rain-Interrupted Matches & \"No Result\"",
+      "desc": "Rain is the most common source of confusion in cricket betting. Unlike many other sports, cricket matches are highly sensitive to weather because overs, innings length, and targets can all change due to rain interruptions. When rain causes a match to stop, the key factor is whether the match meets the <strong class=\"text-white\">minimum completion requirements</strong> defined by official cricket regulations.",
+      "abandoned": {
+        "title": "Match Abandoned (No Result)",
+        "desc": "If a match is abandoned before the minimum number of overs are completed, the official result may be declared as \"No Result\".",
+        "settlementTitle": "Settlement:",
+        "list": [
+          "Match Winner: Void (stakes returned)",
+          "Match Handicap: Void",
+          "Session markets: May settle if completed"
+        ]
+      },
+      "valid": {
+        "title": "Valid Result (After Rain)",
+        "desc": "If rain occurs after a match has reached a valid stage and the result is officially confirmed—either directly or through DLS adjustments—bets are settled normally.",
+        "settlementTitle": "Settlement:",
+        "list": [
+          "Match Winner: Settles by official result",
+          "DLS-adjusted winner counts",
+          "All markets settle normally"
+        ]
+      },
+      "keyPoint": "<strong>Key Point:</strong> This distinction often confuses users, as a match may appear incomplete but still produce a valid result under cricket rules. Understanding rain-related outcomes requires recognizing that betting platforms do not decide match validity—they follow the official match status declared by the governing authority.",
+      "related": "Related reading: Cricket Settlement Rules – Full Documentation →"
+    },
+    "dls": {
+      "title": "Duckworth–Lewis–Stern (DLS) Method Explained",
+      "p1": "The Duckworth–Lewis–Stern (DLS) method is one of the most misunderstood aspects of cricket betting. Many users mistakenly believe that DLS is a platform rule or a betting adjustment. In reality, <strong class=\"text-white\">DLS is an official ICC-approved mathematical model</strong> used to calculate fair targets in rain-affected limited-overs matches.",
+      "howItWorks": {
+        "title": "How DLS Works in Betting",
+        "steps": [
+          {
+            "num": "1",
+            "title": "Original Target Set",
+            "desc": "Match starts with standard target"
+          },
+          {
+            "num": "2",
+            "title": "Rain Interruption",
+            "desc": "Match stopped, overs reduced"
+          },
+          {
+            "num": "3",
+            "title": "DLS Calculation",
+            "desc": "Revised target calculated based on remaining overs and wickets"
+          },
+          {
+            "num": "4",
+            "title": "Official Confirmation",
+            "desc": "Revised target becomes the only valid basis for settlement"
+          }
+        ]
+      },
+      "commonConfusion": {
+        "title": "Common DLS Confusion Points",
+        "list": [
+          {
+            "title": "Live Betting Odds Changes",
+            "desc": "Markets may be suspended while revised target is calculated, then reopened with updated odds"
+          },
+          {
+            "title": "Pre-DLS Bets",
+            "desc": "Bets placed before the revision are settled based on the final official outcome, not the original target"
+          },
+          {
+            "title": "Abandoned Before DLS",
+            "desc": "If match is abandoned before DLS can produce a valid result, bets may be voided"
+          }
+        ]
+      },
+      "important": "<strong>Important:</strong> Betting platforms do not alter or negotiate DLS outcomes; they simply settle bets according to the DLS-adjusted result. DLS is not optional and not platform-specific—it is part of cricket's official ruleset."
+    },
+    "superOver": {
+      "title": "Super Over, Tie, and Knockout Matches",
+      "desc": "Super Overs are another frequent source of confusion, especially in knockout tournaments. When a match ends in a tie, certain competitions use a Super Over to determine a winner. However, <strong class=\"text-white\">not all betting markets automatically include the Super Over outcome</strong>.",
+      "including": {
+        "title": "Including Super Over",
+        "desc": "Some betting markets are explicitly labeled as \"Including Super Over\", meaning the Super Over winner is considered the official match winner for settlement purposes.",
+        "exampleTitle": "Example Market Names:",
+        "examples": [
+          "• Match Winner (Inc. Super Over)",
+          "• To Win Match (Inc. Super Over)",
+          "• Tournament Winner"
+        ]
+      },
+      "regulation": {
+        "title": "Regulation Play Only",
+        "desc": "Other markets may apply only to regulation play, excluding Super Overs. This difference is defined at the market level, not by user assumption.",
+        "exampleTitle": "Example Market Names:",
+        "examples": [
+          "• Match Winner (Regulation Only)",
+          "• 50 Overs Result",
+          "• Regular Time Winner"
+        ]
+      },
+      "critical": "<strong>Critical:</strong> The confusion typically comes from assuming that \"match winner\" always means \"final trophy winner.\" In betting terms, settlement strictly follows the market definition, not the emotional or narrative outcome of the match. Always check market descriptions before placing bets.",
+      "related": "Related: Exchange vs Sportsbook in Cricket – Explained →"
+    },
+    "liveSuspension": {
+      "title": "Live Market Suspension During Play",
+      "intro": "Live market suspension is often mistaken for technical failure or unfair intervention. In reality, <strong class=\"text-white\">live betting suspension is a standard risk control mechanism</strong> used across all professional platforms.",
+      "when": {
+        "title": "When Markets Are Suspended",
+        "desc": "During live cricket matches, markets may be suspended when critical events occur:",
+        "events": [
+          "Wicket falls",
+          "Review decision pending",
+          "Rain delay",
+          "Significant scoring event",
+          "Injury stoppage",
+          "Strategic timeout"
+        ]
+      },
+      "sportsbook": {
+        "title": "Sportsbook Suspension",
+        "desc": "Sportsbooks suspend to <strong class=\"text-white\">recalculate odds and manage exposure</strong>. Once markets reopen, odds may change significantly, reflecting the new match situation."
+      },
+      "exchange": {
+        "title": "Exchange Suspension",
+        "desc": "Exchanges suspend to <strong class=\"text-white\">prevent unfair matching during data latency</strong>. This protects users from betting on outdated information."
+      },
+      "bets": {
+        "title": "What Happens to Your Bets",
+        "list": [
+          {
+            "title": "Bets Placed Before Suspension",
+            "desc": "Remain valid if they were accepted correctly"
+          },
+          {
+            "title": "Bets Attempted During Suspension",
+            "desc": "Simply not accepted (no error, just market closed)"
+          },
+          {
+            "title": "After Market Reopens",
+            "desc": "New odds reflect updated match conditions"
+          }
+        ]
+      },
+      "understanding": "<strong>Understanding This Process:</strong> Helps users avoid frustration and misinterpretation during fast-moving live matches. Suspension is not a platform error—it's a necessary mechanism for fair pricing."
+    },
+    "voidBets": {
+      "title": "Void Bets, Partial Settlement, and Market-Specific Rules",
+      "intro": "Another confusing area is why some bets are voided while others are settled in the same match. This happens because <strong class=\"text-white\">each betting market has its own completion criteria</strong>. A match can produce a valid result while certain markets fail to meet their required conditions.",
+      "player": {
+        "title": "Player Markets",
+        "desc": "A player performance bet may be voided if the player did not bat or bowl, even though the match winner market is settled.",
+        "example": "Example: \"Player to score 50+ runs\" void if player doesn't bat"
+      },
+      "over": {
+        "title": "Over-Based Markets",
+        "desc": "An over-based market may be voided if the over was not completed due to interruption, even if the innings continued later.",
+        "example": "Example: \"6th over total runs\" void if over not bowled"
+      },
+      "partial": {
+        "title": "Partial Settlement",
+        "desc": "In exchange markets, only part of a bet may be matched. The unmatched portion is canceled, while the matched portion settles normally.",
+        "example": "Example: £100 bet, only £60 matched = £40 returned"
+      },
+      "keyTakeaway": "<strong>Key Takeaway:</strong> Settlement depends on market rules, not general match outcomes. Reading the market description before betting is essential to avoid confusion. This behavior is not an error but a function of how different markets operate.",
+      "reference": "Reference: Cricket Bet Types Explained →"
+    },
+    "final": {
+      "title": "Final Understanding: Why Confusion Happens",
+      "intro": "Cricket betting confusion usually arises from applying simple expectations to a complex sport. Cricket's structure—<strong class=\"text-white\">multiple formats, weather influence, official adjustments, and live dynamics</strong>—creates scenarios that do not exist in most other sports.",
+      "principles": {
+        "title": "Core Principles",
+        "list": [
+          "Betting platforms do not invent these situations; they reflect them",
+          "Settlement follows official match results and market-specific rules",
+          "Understanding the rules reduces misunderstandings",
+          "Cricket betting involves uncertainty by nature"
+        ]
+      },
+      "note": "This page exists to provide clarity, not promises. Cricket betting involves uncertainty by nature, and understanding that uncertainty is part of responsible participation."
+    },
+    "relatedGuides": {
+      "title": "Related Cricket Guides",
+      "betTypes": {
+        "title": "Cricket Bet Types",
+        "desc": "Markets explained"
+      },
+      "howToBet": {
+        "title": "How to Bet",
+        "desc": "Live & Pre-match"
+      },
+      "exchangeVsSportsbook": {
+        "title": "Exchange vs Sportsbook",
+        "desc": "Model differences"
+      },
+      "settlementRules": {
+        "title": "Settlement Rules",
+        "desc": "Full documentation"
+      }
+    }
+  },
+  "cricketFAQ": {
+    "hero": {
+      "title": "Cricket Betting FAQ",
+      "subtitle": "Rules, Providers & Common Questions Answered"
+    },
+    "seo": {
+      "title": "Cricket Betting FAQ – Rules, Providers & Common Questions Answered (2025)",
+      "description": "Complete cricket betting FAQ. Get answers to common questions about odds, live betting, DLS, Super Over, void bets, providers, and settlement rules.",
+      "keywords": "cricket betting FAQ, cricket betting questions, cricket betting rules, cricket betting providers, cricket betting help",
+      "headline": "Cricket Betting FAQ – Rules, Providers & Common Questions Answered (2025)",
+      "author": "BIGWIN959 Guide"
+    },
+    "providers": {
+      "title": "Platform & Provider Reliability",
+      "intro": "Modern cricket betting platforms often integrate multiple providers to offer users a variety of markets, odds, and betting experiences. Each provider specializes in different aspects of cricket betting, from traditional sportsbook odds to exchange-style markets.",
+      "table": {
+        "headers": [
+          "Provider",
+          "Type",
+          "Known For"
+        ],
+        "rows": [
+          {
+            "provider": "BTI Sports",
+            "type": "Sportsbook",
+            "knownFor": "Stable pricing, reliable odds"
+          },
+          {
+            "provider": "UG Sports",
+            "type": "Hybrid",
+            "knownFor": "Asian markets, competitive lines"
+          },
+          {
+            "provider": "SBO Sports",
+            "type": "Sportsbook",
+            "knownFor": "High liquidity, Asian handicap focus"
+          },
+          {
+            "provider": "IBC Sports",
+            "type": "Sportsbook",
+            "knownFor": "International markets, diverse options"
+          },
+          {
+            "provider": "Lucky Exchange",
+            "type": "Exchange",
+            "knownFor": "Market-driven odds, back & lay betting"
+          }
+        ]
+      },
+      "whyMultiple": "<strong>Why Multiple Providers?</strong> Platforms use multiple providers to offer users choice, competitive odds, and different betting experiences. Each provider has strengths in specific markets or formats, giving users flexibility in how they bet on cricket."
+    },
+    "faqList": {
+      "title": "Frequently Asked Questions",
+      "intro": "Real answers to common cricket betting questions, based on industry-standard practices and official rules.",
+      "questions": [
+        {
+          "question": "Why do odds differ between platforms?",
+          "answer": "Odds can differ between platforms because different providers use different pricing models and risk management strategies. Sportsbook platforms set their own odds based on internal calculations, market exposure, and profit margins. Exchange platforms have odds determined by user supply and demand, which can fluctuate more rapidly.\n\nAdditionally, platforms may use different data feeds, have different liquidity levels, or target different user segments. A platform focused on Asian markets might price cricket differently than one targeting European users. This is normal market behavior, not an error.\n\nThe key is to understand that each platform operates independently, and odds reflect their specific pricing strategy and risk tolerance at that moment."
+        },
+        {
+          "question": "Why was my live bet suspended?",
+          "answer": "Live bet suspension is a standard risk control mechanism used by all professional platforms. Markets are suspended during critical events such as wickets, reviews, rain delays, or significant scoring moments to allow platforms to recalculate fair odds based on the new match situation.\n\nSportsbooks suspend to update pricing and manage exposure, while exchanges suspend to prevent unfair matching during data latency. This protects both the platform and users from betting on outdated information.\n\nBets placed before suspension remain valid if they were accepted. Bets attempted during suspension are simply not accepted. Once markets reopen, odds will reflect the updated match conditions. This is not a technical error—it's a necessary part of live betting operations."
+        },
+        {
+          "question": "What happens if a match is abandoned?",
+          "answer": "If a match is abandoned before meeting minimum completion requirements, the official result is typically declared as \"No Result\". In this case, most full-match betting markets (Match Winner, Handicap, Totals) are voided and stakes are returned.\n\nHowever, not all markets behave the same way. Session markets or over-based markets that were completed before the abandonment may still be settled. Player performance markets may be void if the player didn't participate sufficiently.\n\nIf a match is abandoned after reaching a valid stage and an official result is confirmed (such as through DLS), bets are settled normally based on that official result. The key is that platforms follow the official match status declared by the governing authority—they don't decide match validity themselves."
+        },
+        {
+          "question": "Are exchange bets riskier than sportsbook bets?",
+          "answer": "Exchange bets are not inherently riskier, but they do require a different understanding. In exchange betting, you're betting against other users rather than the platform, and odds are market-driven rather than fixed.\n\nThe main differences are: (1) Your bet may remain unmatched if no one accepts your offered price, (2) Odds can fluctuate more rapidly based on user activity, (3) Liquidity affects price stability—popular matches have tighter spreads while lower-liquidity markets can have sudden swings.\n\nExchange betting offers greater flexibility (you can back or lay outcomes) but requires understanding market mechanics. It's better suited for experienced users who want pricing control. Sportsbooks offer simplicity and instant execution, making them better for straightforward betting.\n\nNeither model is \"riskier\"—they're just different approaches with different characteristics."
+        },
+        {
+          "question": "How does DLS affect my bets?",
+          "answer": "The Duckworth-Lewis-Stern (DLS) method is an official ICC-approved system for calculating fair targets in rain-affected matches. When DLS is applied, the revised target becomes the only valid basis for settlement—platforms don't alter or negotiate this outcome.\n\nBets placed before DLS revision are settled based on the final official DLS-adjusted result, not the original target. Markets may be suspended while the revised target is calculated, then reopened with updated odds reflecting the new situation.\n\nIf a match is abandoned before DLS can produce a valid result, bets may be voided. The key point is that DLS is part of cricket's official ruleset, not a platform rule. Understanding this helps avoid confusion when rain affects matches."
+        },
+        {
+          "question": "Do Super Overs count for my bet?",
+          "answer": "Whether Super Overs count depends on the specific market definition, not general assumptions. Some markets are explicitly labeled \"Including Super Over\", meaning the Super Over winner is considered the official match winner for settlement. Other markets apply only to regulation play, excluding Super Overs.\n\nThis distinction is defined at the market level and should be clearly stated in the market description. In knockout tournaments where Super Overs are more common, it's especially important to check market descriptions before placing bets.\n\nThe confusion typically comes from assuming \"match winner\" always means \"final winner\". In betting terms, settlement strictly follows the market definition. Always read the market description to understand what's included."
+        },
+        {
+          "question": "Why are some of my bets voided while others settle?",
+          "answer": "Different betting markets have different completion criteria. A match can produce a valid result while certain markets fail to meet their required conditions.\n\nFor example: A player performance bet may be void if the player didn't bat or bowl, even though the match winner market settles normally. An over-based market may be void if that specific over wasn't completed, even if the innings continued. In exchange markets, unmatched portions of bets are canceled while matched portions settle normally.\n\nThis is not an error—it's how market-specific rules work. Each market has its own requirements for settlement. Reading the market description before betting helps avoid confusion about why some bets are voided while others aren't."
+        },
+        {
+          "question": "Can I cash out my cricket bet early?",
+          "answer": "Cash out availability depends on the platform and specific market. Many modern platforms offer cash out functionality for pre-match and live bets, allowing you to settle your bet before the match ends.\n\nThe cash out price is calculated based on current odds and match situation. If your bet is winning, cash out offers a guaranteed profit (though usually less than waiting for full settlement). If your bet is losing, cash out limits your loss.\n\nHowever, cash out may not be available during market suspensions, for certain market types, or in low-liquidity situations. The cash out price can change rapidly during live matches. Whether to use cash out depends on your risk tolerance and match assessment—there's no universally \"correct\" decision."
+        },
+        {
+          "question": "What's the difference between Asian Handicap and European Handicap?",
+          "answer": "Asian Handicap uses half-point or quarter-point spreads (like -10.5 runs) to eliminate the possibility of a tie, meaning your bet either wins or loses. European Handicap uses whole number spreads (like -10 runs), which can result in a push (tie) where stakes are returned.\n\nIn cricket, Asian Handicap is more common because it provides clearer outcomes and is popular in Asian markets. The half-point spread means one team must win by a specific margin for the bet to succeed.\n\nAsian Handicap is generally preferred for its simplicity and elimination of push scenarios, but both types are valid betting options with slightly different risk/reward profiles."
+        },
+        {
+          "question": "How quickly are cricket bets settled?",
+          "answer": "Settlement timing varies by market type and platform. Simple markets like Match Winner are typically settled within minutes of the official result being confirmed. More complex markets (player performance, session bets) may take longer as platforms verify official statistics.\n\nLive betting markets settle as soon as the relevant event is confirmed. Pre-match markets settle after the match concludes and the official result is declared. If there are unusual circumstances (DLS, abandoned matches, disputes), settlement may be delayed pending official confirmation.\n\nExchange markets may settle slightly differently than sportsbook markets, especially during unusual situations. Most platforms aim to settle as quickly as possible while ensuring accuracy based on official results."
+        }
+      ]
+    },
+    "disclaimer": {
+      "title": "Educational Disclaimer",
+      "p1": "This FAQ page provides educational information about cricket betting mechanics, settlement rules, and platform operations. It is designed to help users understand how cricket betting works based on industry-standard practices.",
+      "p2": "This information does not constitute betting advice, strategy recommendations, or guaranteed outcomes. Cricket betting involves financial risk, and outcomes are determined by official match results and platform-specific rules.",
+      "p3": "Users should always read market descriptions, understand platform terms, and participate responsibly. This guide exists to provide clarity and reduce confusion, not to encourage or promote betting activity.",
+      "final": "Final settlement always follows official match results and market-specific rules as defined by the platform."
+    },
+    "relatedGuides": {
+      "title": "Complete Cricket Betting Guide",
+      "betTypes": {
+        "title": "Bet Types",
+        "desc": "Markets explained"
+      },
+      "howToBet": {
+        "title": "How to Bet",
+        "desc": "Step-by-step guide"
+      },
+      "confusingSituations": {
+        "title": "Confusing Situations",
+        "desc": "Rain, DLS, Super Over"
+      },
+      "exchangeVsSportsbook": {
+        "title": "Exchange vs Sportsbook",
+        "desc": "Model differences"
+      }
+    }
+  },
+  "cricketExchangeVsSportsbook": {
+    "hero": {
+      "title": "Exchange vs Sportsbook in Cricket Betting",
+      "subtitle": "What's the Difference and Which One to Use?"
+    },
+    "intro": {
+      "p1": "Cricket betting platforms generally operate using two fundamentally different models: <strong className=\"text-white\">Sportsbook-style betting</strong> and <strong className=\"text-white\">Exchange-style betting</strong>.",
+      "p2": "While both allow users to place bets on cricket matches, they differ significantly in how odds are created, how bets are matched, how risks are managed, and how settlements are handled—especially during unusual match situations such as rain interruptions or abandoned games.",
+      "p3": "This guide explains Exchange vs Sportsbook betting in cricket using industry-standard logic applied by professional providers. It is designed to help users in Bangladesh and Myanmar clearly understand why odds, execution speed, and settlement behavior can vary between platforms.",
+      "disclaimer": "<strong>Educational guide only.</strong> This does not provide betting advice or guarantee outcomes."
+    },
+    "sportsbook": {
+      "title": "What Is a Sportsbook in Cricket Betting?",
+      "howItWorks": {
+        "title": "How Sportsbook Betting Works",
+        "p1": "A sportsbook is the traditional betting model where users place bets directly against the platform. The sportsbook sets the odds, accepts the bet, and assumes the risk. Odds are calculated using internal pricing models that account for match probability, market exposure, and risk tolerance.",
+        "p2": "In cricket, sportsbook odds are adjusted dynamically as the match progresses. Factors such as run rate, wickets, weather conditions, and match format all influence how prices move. When risk exposure increases rapidly—such as during live betting—the sportsbook may suspend markets temporarily to recalculate fair odds.",
+        "p3": "Sportsbooks prioritize <strong className=\"text-white\">price stability, instant execution, and predictable settlement rules</strong>. Because the platform controls pricing, users generally experience smoother odds movement compared to exchange markets. However, odds may include a built-in margin that reflects the platform's risk management strategy."
+      },
+      "suitableFor": {
+        "title": "Sportsbook betting is particularly suitable for:",
+        "list": [
+          "<strong className=\"text-white\">Pre-match betting</strong> - Fixed odds before match starts",
+          "<strong className=\"text-white\">Straightforward markets</strong> - Match Winner, Over/Under",
+          "<strong className=\"text-white\">Users who prefer</strong> - Fixed pricing and simple execution"
+        ]
+      },
+      "flow": {
+        "title": "Sportsbook Model Flow",
+        "subtitle": "How traditional betting works",
+        "step1": "User Places Bet",
+        "step2": "Platform Sets Odds",
+        "step3": "Platform Manages Risk"
+      }
+    },
+    "exchange": {
+      "title": "What Is an Exchange in Cricket Betting?",
+      "howItWorks": {
+        "title": "How Exchange-Style Betting Works",
+        "p1": "An exchange operates as a <strong className=\"text-white\">marketplace rather than a bookmaker</strong>. Instead of betting against the platform, users bet against other users. Odds are created through supply and demand, with participants offering prices to back or lay specific outcomes.",
+        "p2": "In cricket exchange betting, users can:",
+        "back": {
+          "title": "Back an outcome",
+          "desc": "Bet it will happen (traditional betting)"
+        },
+        "lay": {
+          "title": "Lay an outcome",
+          "desc": "Bet it will NOT happen (act as bookmaker)"
+        },
+        "p3": "Because odds are driven by real-time user activity, exchange prices often move faster and may fluctuate more aggressively than sportsbook odds—especially during live matches. <strong className=\"text-white\">Liquidity plays a critical role</strong>: highly popular matches tend to have tighter spreads, while lower-liquidity markets can experience sudden price swings.",
+        "p4": "Settlement in exchange markets follows official match results, but execution depends on whether a user's offered price is matched by another participant. This introduces additional considerations such as partial matching and unmatched bets."
+      },
+      "advancedUsers": "<strong>Advanced Users:</strong> Exchange betting is commonly used by advanced users who understand market mechanics and want greater pricing control.",
+      "flow": {
+        "title": "Exchange Model Flow",
+        "subtitle": "Peer-to-peer betting marketplace",
+        "userA": "User A (Back)",
+        "platform": "Platform\n(Intermediary)",
+        "userB": "User B (Lay)"
+      }
+    },
+    "keyDifferences": {
+      "title": "Key Differences Between Exchange and Sportsbook",
+      "pricing": {
+        "title": "Pricing and Odds Behavior",
+        "desc": "In sportsbook betting, odds are <strong className=\"text-white\">fixed at the moment the bet is accepted</strong>, providing certainty. In exchange betting, odds reflect <strong className=\"text-white\">live market demand</strong> and may change rapidly depending on order flow.",
+        "causes": {
+          "intro": "This is why users sometimes see:",
+          "list": [
+            "Different odds for the same match across platforms",
+            "Faster volatility in exchange markets",
+            "Temporary market suspensions during high-impact events"
+          ],
+          "note": "These behaviors are not errors; they are inherent to how each model operates."
+        }
+      },
+      "execution": {
+        "title": "Execution Speed and Matching",
+        "sportsbook": {
+          "title": "Sportsbook",
+          "desc": "Usually provides <strong className=\"text-white\">instant bet acceptance</strong>, assuming the market is open."
+        },
+        "exchange": {
+          "title": "Exchange",
+          "desc": "Requires a <strong className=\"text-white\">matching counterparty</strong>, meaning a bet may remain unmatched if no one accepts the offered price."
+        }
+      },
+      "riskManagement": {
+        "title": "Risk Management and Market Suspension",
+        "desc": "Both systems may suspend markets during critical moments (e.g., wicket, rain delay), but for different reasons:",
+        "sportsbook": {
+          "title": "Sportsbooks",
+          "desc": "Suspend to <strong className=\"text-white\">recalculate odds</strong> based on new match conditions"
+        },
+        "exchange": {
+          "title": "Exchanges",
+          "desc": "Suspend to <strong className=\"text-white\">prevent unfair matching</strong> during information delays"
+        }
+      }
+    },
+    "settlementRules": {
+      "title": "Settlement Rules: Exchange vs Sportsbook",
+      "desc": "Settlement differences are most noticeable during unusual match scenarios, such as rain interruptions, DLS decisions, or abandoned matches.",
+      "table": {
+        "headers": [
+          "Situation",
+          "Sportsbook Settlement",
+          "Exchange Settlement"
+        ],
+        "rows": [
+          {
+            "situation": "Match completed normally",
+            "sportsbook": "Settles by result",
+            "exchange": "Settles by result"
+          },
+          {
+            "situation": "DLS applied",
+            "sportsbook": "Settles by DLS winner",
+            "exchange": "Settles by DLS winner"
+          },
+          {
+            "situation": "Match abandoned",
+            "sportsbook": "Usually void",
+            "exchange": "Depends on market rules"
+          },
+          {
+            "situation": "Live market suspended",
+            "sportsbook": "Bet may stand",
+            "exchange": "Unmatched bets canceled"
+          }
+        ]
+      },
+      "detailedEdgeCases": "<strong>For detailed edge cases:</strong> See <NavLink to=\"/guides/cricket#confusing-situations\" className=\"text-brand hover:underline\">Cricket Confusing Situations Explained</NavLink>"
+    },
+    "whichIsBetter": {
+      "title": "Which Model Is Better for Cricket Betting?",
+      "intro": "There is no universally \"better\" model. The choice depends on user preference, experience level, and betting style.",
+      "sportsbookBetter": {
+        "title": "Sportsbooks Are Better For",
+        "list": [
+          {
+            "title": "Simplicity",
+            "desc": "Easy to understand, instant execution"
+          },
+          {
+            "title": "Fixed odds",
+            "desc": "Know your price at bet placement"
+          },
+          {
+            "title": "Clear settlement behavior",
+            "desc": "Predictable rules for unusual situations"
+          }
+        ]
+      },
+      "exchangeBetter": {
+        "title": "Exchanges Appeal To",
+        "list": [
+          {
+            "title": "Market-driven pricing",
+            "desc": "Odds reflect real-time demand"
+          },
+          {
+            "title": "Back and lay flexibility",
+            "desc": "Bet for or against outcomes"
+          },
+          {
+            "title": "Advanced control over odds",
+            "desc": "Set your own prices and wait for matching"
+          }
+        ]
+      },
+      "modernPlatforms": "<strong className=\"text-white\">Modern platforms</strong> often integrate both models, allowing users to choose based on the specific match or market."
+    },
+    "relatedGuides": {
+      "title": "How This Page Connects to the Full Cricket Guide",
+      "intro": "This page serves as a central explanation hub within the cricket betting guide:",
+      "betTypes": {
+        "title": "Cricket Bet Types",
+        "desc": "What you can bet on"
+      },
+      "howToBet": {
+        "title": "How to Bet",
+        "desc": "Step-by-step flow"
+      },
+      "confusingSituations": {
+        "title": "Confusing Situations",
+        "desc": "Rain, DLS, abandoned"
+      },
+      "faq": {
+        "title": "Cricket FAQ",
+        "desc": "Common questions"
+      },
+      "outro": "Understanding the difference between exchange and sportsbook models helps users interpret odds movement, settlement outcomes, and platform behavior more accurately across all cricket markets."
+    },
+    "finalNote": {
+      "title": "Final Note",
+      "text": "Cricket betting outcomes are governed by official match results and platform rules. Understanding how betting models work reduces confusion but does not eliminate risk. This guide is provided for informational purposes only."
+    },
+    "seo": {
+      "title": "Exchange vs Sportsbook in Cricket Betting – Differences, Risks, and Settlement Explained (2025)",
+      "description": "Complete guide to Exchange vs Sportsbook cricket betting. Learn how odds are created, execution speed, settlement rules, and which model suits your betting style.",
+      "keywords": [
+        "exchange vs sportsbook",
+        "cricket exchange betting",
+        "sportsbook cricket",
+        "back and lay betting",
+        "cricket betting models"
+      ],
+      "headline": "Exchange vs Sportsbook in Cricket Betting – Differences, Risks, and Settlement Explained (2025)",
+      "author": "BIGWIN959 Guide"
+    }
+  }
+}

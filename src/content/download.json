@@ -1,0 +1,233 @@
+{
+  "appDownload": {
+    "schema": {
+      "howTo": {
+        "name": "How to Download BIGWIN959 App",
+        "description": "Step-by-step guide to downloading and installing the BIGWIN959 mobile app.",
+        "step1": {
+          "name": "Go to Official Website",
+          "text": "Open your mobile browser and visit BIGWIN959.vip"
+        },
+        "step2": {
+          "name": "Download APK",
+          "text": "Click on the 'App Download' button and select 'Download Android App' to save the APK file."
+        },
+        "step3": {
+          "name": "Allow Unknown Sources",
+          "text": "If prompted, go to Settings > Security and enable 'Install from Unknown Sources' to allow the installation."
+        },
+        "step4": {
+          "name": "Install and Login",
+          "text": "Open the downloaded file, tap 'Install', and then launch the app to login or register."
+        }
+      }
+    },
+    "seo": {
+      "keywords": [
+        "download BIGWIN959 app",
+        "BIGWIN959 apk",
+        "android betting app",
+        "ios betting app",
+        "mobile casino app",
+        "cricket betting app",
+        "BIGWIN959 mobile"
+      ],
+      "title": "App Download - Android & iOS | Play BIGWIN959 on Mobile",
+      "description": "Download the official BIGWIN959 app for Android. Install the APK, get setup instructions for iOS users, and enjoy seamless mobile betting. Fast, secure, and optimized."
+    },
+    "hero": {
+      "title": "BIGWIN959 App Download",
+      "subtitle": "Android & Mobile Guide 2025",
+      "description1": "The BIGWIN959 mobile app lets players in Bangladesh and Myanmar access games, bonuses, and account features more quickly and smoothly than using a browser.",
+      "description2": "This page explains how to download, install, and update the BIGWIN959 app safely on your phone.",
+      "warning": "Official App Page:",
+      "warningText": "Always use the official link. Never download from unknown websites.",
+      "downloadButton": "Download Official App"
+    },
+    "whyUse": {
+      "title": "Why Use the BIGWIN959 App?",
+      "features": [
+        {
+          "title": "Faster loading than browser",
+          "desc": "Optimized performance for mobile devices"
+        },
+        {
+          "title": "Smoother gameplay on mobile",
+          "desc": "Better graphics and responsiveness"
+        },
+        {
+          "title": "Easier login with saved credentials",
+          "desc": "Quick access with biometric login"
+        },
+        {
+          "title": "Quick access to deposit & withdrawal",
+          "desc": "Manage your funds easily"
+        },
+        {
+          "title": "One-tap access to all games",
+          "desc": "Aviator, Slots, Sports, Cricket, etc."
+        },
+        {
+          "title": "Secure and reliable",
+          "desc": "Official app from BIGWIN959.vip"
+        }
+      ],
+      "availableFor": "Available for:",
+      "devices": [
+        "Android phones",
+        "Android tablets",
+        "Some Android emulators on PC"
+      ],
+      "iosNote": "iOS users can still access BIGWIN959 via mobile browser."
+    },
+    "androidSteps": {
+      "title": "How to Download BIGWIN959 App on Android",
+      "warning": "Important:",
+      "warningText": "Because of content policies, the BIGWIN959 app is usually not available in Google Play Store. You need to download the APK from the official website only.",
+      "step1": {
+        "title": "Go to the Official Website",
+        "desc": "Open your browser and visit:",
+        "note": "Make sure the URL is correct and secured (HTTPS)."
+      },
+      "step2": {
+        "title": "Open the App Download Page",
+        "desc": "On the platform:",
+        "item1": "Look for a button or menu item labeled \"Download App\" / \"Android App\" / \"Mobile App\"",
+        "item2": "Tap it to open the APK download page"
+      },
+      "step3": {
+        "title": "Download the APK File",
+        "desc": "Tap \"Download APK\".",
+        "warning": "Your phone may show a warning like:",
+        "warningMessage": "\"This type of file can harm your device. Do you want to keep BIGWIN959.apk anyway?\"",
+        "note": "This is a standard Android message for all APK files not from Play Store. Press OK or Download anyway if you trust the source."
+      },
+      "step4": {
+        "title": "Allow Installation from Unknown Sources",
+        "desc": "For first-time APK installation:",
+        "item1": "When the APK finishes downloading, tap Open",
+        "item2": "Android might show: \"For your security, your phone is not allowed to install unknown apps from this source.\"",
+        "item3": "Tap Settings",
+        "item4": "Enable: Allow from this source",
+        "item5": "Go back and tap Install"
+      },
+      "step5": {
+        "title": "Install and Open the App",
+        "desc": "After you tap Install:",
+        "item1": "Wait a few seconds",
+        "item2": "Tap Open to launch the BIGWIN959 app",
+        "item3": "Login or register if you don't have an account yet",
+        "note": "If you don't have an account, follow the registration guide."
+      }
+    },
+    "ios": {
+      "title": "Using BIGWIN959 on iPhone (iOS Users)",
+      "subtitle": "At the moment, BIGWIN959 is mainly optimized for mobile browser on iOS.",
+      "forIphone": "For iPhone / iPad:",
+      "steps": [
+        "Open Safari / Chrome",
+        "Login and play directly in the browser"
+      ],
+      "shortcut": "(Optional) Add shortcut to Home Screen:",
+      "shortcutSteps": [
+        "Tap Share → Add to Home Screen",
+        "Name it: BIGWIN959",
+        "This behaves like a 'web app' icon"
+      ]
+    },
+    "pc": {
+      "title": "Using BIGWIN959 on PC or Laptop",
+      "subtitle": "You don't need a separate PC app.",
+      "forPC": "On Windows / Mac:",
+      "steps": [
+        "Open Chrome / Edge / Firefox",
+        "Login as usual"
+      ],
+      "advanced": "Advanced Option:",
+      "advancedText": "Some advanced users use Android emulators (like Bluestacks, LDPlayer) to install the Android APK on PC, but for most users browser is enough."
+    },
+    "update": {
+      "title": "How to Update the BIGWIN959 App",
+      "subtitle": "From time to time, BIGWIN959 may release new versions of the APK.",
+      "toUpdate": "To update:",
+      "steps": [
+        "Visit BIGWIN959.vip again",
+        "Go to Download App section",
+        "Download the latest APK",
+        "Install it over the existing app (no need to uninstall)"
+      ],
+      "note": "Your account and balance will remain the same."
+    },
+    "safety": {
+      "title": "Safety Tips for Downloading the App",
+      "subtitle": "To keep your account and device safe:",
+      "tips": [
+        "Only download BIGWIN959 app from BIGWIN959.vip",
+        "Do NOT download from random third-party websites",
+        "Avoid sharing APK via unknown Telegram / WhatsApp groups",
+        "Keep your phone updated",
+        "Enable screen lock and keep your password private",
+        "If an app asks for strange permissions, cancel the installation"
+      ]
+    },
+    "troubleshooting": {
+      "title": "Troubleshooting – Common App Issues",
+      "issues": [
+        {
+          "question": "I can't install the APK",
+          "solutions": [
+            "Check \"Allow from this source\" is enabled",
+            "Make sure there is enough storage space",
+            "Try re-downloading the APK"
+          ]
+        },
+        {
+          "question": "The app won't open",
+          "solutions": [
+            "Restart your phone",
+            "Clear app cache (Settings → Apps → BIGWIN959 → Storage → Clear cache)",
+            "If it still fails, use the browser version temporarily"
+          ]
+        },
+        {
+          "question": "I see a security warning",
+          "solutions": [
+            "Android always warns about APKs not from Play Store.",
+            "If you downloaded from BIGWIN959.vip, it is the official file."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ – BIGWIN959 App",
+      "items": [
+        {
+          "q": "Is the BIGWIN959 app available in Google Play Store?",
+          "a": "Usually not. You must download the APK from BIGWIN959.vip."
+        },
+        {
+          "q": "Can I use the app in Bangladesh?",
+          "a": "Yes, the app is optimized for BD networks and payment methods."
+        },
+        {
+          "q": "Can I use the app in Myanmar?",
+          "a": "Yes, Myanmar users can also access the app through the official website."
+        },
+        {
+          "q": "Is this page the official app?",
+          "a": "No, this is an informational guide. The official app is only provided through: BIGWIN959.vip"
+        }
+      ]
+    },
+    "finalCTA": {
+      "title": "Ready to Download the BIGWIN959 App?",
+      "description": "The BIGWIN959 Android app gives players in Bangladesh and Myanmar a smoother, faster experience compared to a normal browser.",
+      "downloadButton": "Download App from Official Site",
+      "loginButton": "Login to Your Account"
+    },
+    "footer": {
+      "copyright": "© 2025 BIGWIN959 App Download Guide | Independent Information Resource",
+      "disclaimer": "This is an informational guide. Always download from the official platform: BIGWIN959.vip"
+    }
+  }
+}
